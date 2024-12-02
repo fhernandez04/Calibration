@@ -120,7 +120,7 @@ int main(int argc, char **argv) {
     }
 
     ///////////////////////////////////////////////////////////////////////////
-    // 2. Getting Intrinsic Matrix and Distorsion coeficients
+    // 2. Getting Intrinsic Matrix and Distortion coefficients
 
     Matx33f intrinsicMatrix(Matx33f::eye());
     Vec<float, 5> distortionCoef(0, 0, 0, 0, 0);
