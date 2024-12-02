@@ -203,19 +203,21 @@ int main(int argc, char **argv) {
     cout << "File saved in succesfully" << endl; 
     
     /*
+    No need to show this, just if you want
+    
     // Rotation vector
     cout << "TYPE=" << (rotationVect[0].type() == CV_64F) << endl;
-    cout << "std::vector<cv::Mat> rotationVect;" << endl; 
+    cout << "vector<Mat> rotationVect;" << endl; 
     for (size_t i = 0; i < rotationVect.size(); i++) {
         double *ptr = rotationVect[i].ptr<double>(0); 
-        cout << "rotationVect.push_back( (cv::Mat_<double>(3,1) << " << ptr[0] << "," << ptr[1] << "," << ptr[2] << "));" << endl; 
+        cout << "rotationVect.push_back( (Mat_<double>(3,1) << " << ptr[0] << "," << ptr[1] << "," << ptr[2] << "));" << endl; 
     } 
     
     // Translation Vector
-    cout << "std::vector<cv::Mat> translationVect;" << endl; 
+    cout << "vector<Mat> translationVect;" << endl; 
     for (size_t i = 0; i < translationVect.size(); i++) { 
         double *ptr = translationVect[i].ptr<double>(0); 
-        cout << "translationVect.push_back( (cv::Mat_<double>(3,1) << " << ptr[0] << "," << ptr[1] << "," << ptr[2] << "));" << endl;
+        cout << "translationVect.push_back( (Mat_<double>(3,1) << " << ptr[0] << "," << ptr[1] << "," << ptr[2] << "));" << endl;
     }
     */
 
