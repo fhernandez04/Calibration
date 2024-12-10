@@ -127,8 +127,8 @@ int main(int argc, char **argv) {
     vector<Mat> rotationVect, translationVect;
 
     //int flags = CALIB_FIX_ASPECT_RATIO + CALIB_FIX_K3 + CALIB_ZERO_TANGENT_DIST + CALIB_FIX_PRINCIPAL_POINT;
-    int flags = CALIB_FIX_K3 | CALIB_ZERO_TANGENT_DIST;
-    //int flags = 0;
+    //int flags = CALIB_FIX_K3 | CALIB_ZERO_TANGENT_DIST;
+    int flags = 0;
     
     Mat img = imread(fileNames[0]);  // Read the first image to detect the size
     Size frameSize(img.cols, img.rows);
