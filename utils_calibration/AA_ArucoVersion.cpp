@@ -120,7 +120,7 @@ int main(int argc, char **argv) {
     }
 
     ///////////////////////////////////////////////////////////////////////////
-    // 2. Getting Intrinsic Matrix and Distorsion coeficients
+    // 2. Getting Intrinsic Matrix and Distortion coefficients
 
     Matx33f intrinsicMatrix(Matx33f::eye());
     Vec<float, 5> distortionCoef(0, 0, 0, 0, 0);
@@ -145,7 +145,7 @@ int main(int argc, char **argv) {
 
     cout << endl << "Calibration error: " << error << endl;
     //cout << "Intrinsic Matrix: " << endl << intrinsicMatrix << endl << endl;
-    //cout << "Distorsion Coefficients: " << endl << distortionCoef << endl << endl;
+    //cout << "Distortion Coefficients: " << endl << distortionCoef << endl << endl;
 
     ///////////////////////////////////////////////////////////////////////////
     // 3. Correcting images to test the calibration accuracy
@@ -159,7 +159,7 @@ int main(int argc, char **argv) {
 
     /*
     * mapX and mapY are the matrix that contain the fixed position of every
-    * pixel of the image to correct the distorsion
+    * pixel of the image to correct the distortion
     * 
     * e.g. if the value of mapX[100, 50] = 98 and mapY[100, 50] = 49, 
     * the pixel in (100, 50) of the original image should be map into 
