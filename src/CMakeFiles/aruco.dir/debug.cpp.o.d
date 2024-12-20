@@ -1,7 +1,7 @@
 src/CMakeFiles/aruco.dir/debug.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/debug.cpp \
+ /home/francisco/Escritorio/Calibration/src/debug.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/debug.h \
+ /home/francisco/Escritorio/Calibration/src/debug.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -150,7 +150,7 @@ src/CMakeFiles/aruco.dir/debug.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/ctime \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/stl_map.h /usr/include/c++/13/tuple \

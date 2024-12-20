@@ -1,4 +1,4 @@
-# Install script for directory: /home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src
+# Install script for directory: /home/francisco/Escritorio/Calibration/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "main" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/libaruco.so.3.1.12"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/libaruco.so.3.1"
+    "/home/francisco/Escritorio/Calibration/src/libaruco.so.3.1.12"
+    "/home/francisco/Escritorio/Calibration/src/libaruco.so.3.1"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libaruco.so.3.1.12"
@@ -72,48 +72,48 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "main" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "main" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/libaruco.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/home/francisco/Escritorio/Calibration/src/libaruco.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aruco" TYPE FILE FILES
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/aruco_cvversioning.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cameraparameters.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary_based.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/ippe.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector_impl.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markermap.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/timers.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/aruco_export.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cvdrawingutils.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/levmarq.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/marker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/picoflann.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/aruco.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/debug.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerlabeler.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/posetracker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractaldetector.h"
+    "/home/francisco/Escritorio/Calibration/src/aruco_cvversioning.h"
+    "/home/francisco/Escritorio/Calibration/src/cameraparameters.h"
+    "/home/francisco/Escritorio/Calibration/src/dictionary_based.h"
+    "/home/francisco/Escritorio/Calibration/src/ippe.h"
+    "/home/francisco/Escritorio/Calibration/src/markerdetector_impl.h"
+    "/home/francisco/Escritorio/Calibration/src/markermap.h"
+    "/home/francisco/Escritorio/Calibration/src/timers.h"
+    "/home/francisco/Escritorio/Calibration/src/aruco_export.h"
+    "/home/francisco/Escritorio/Calibration/src/cvdrawingutils.h"
+    "/home/francisco/Escritorio/Calibration/src/dictionary.h"
+    "/home/francisco/Escritorio/Calibration/src/levmarq.h"
+    "/home/francisco/Escritorio/Calibration/src/marker.h"
+    "/home/francisco/Escritorio/Calibration/src/picoflann.h"
+    "/home/francisco/Escritorio/Calibration/src/aruco.h"
+    "/home/francisco/Escritorio/Calibration/src/debug.h"
+    "/home/francisco/Escritorio/Calibration/src/markerdetector.h"
+    "/home/francisco/Escritorio/Calibration/src/markerlabeler.h"
+    "/home/francisco/Escritorio/Calibration/src/posetracker.h"
+    "/home/francisco/Escritorio/Calibration/src/fractaldetector.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aruco/fractallabelers" TYPE FILE FILES
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.h"
+    "/home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.h"
+    "/home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.h"
+    "/home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.h"
+    "/home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/aruco/dcf" TYPE FILE FILES
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkermaptracker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkertracker.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcf_utils.h"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/trackerimpl.h"
+    "/home/francisco/Escritorio/Calibration/src/dcf/dcfmarkermaptracker.h"
+    "/home/francisco/Escritorio/Calibration/src/dcf/dcfmarkertracker.h"
+    "/home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.h"
+    "/home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.h"
     )
 endif()
 

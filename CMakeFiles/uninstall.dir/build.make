@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/uninstall.dir/compiler_depend.make
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/francisco/Escritorio/Calibration/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

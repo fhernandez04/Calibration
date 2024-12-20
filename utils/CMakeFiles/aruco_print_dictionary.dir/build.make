@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include utils/CMakeFiles/aruco_print_dictionary.dir/depend.make
@@ -72,16 +72,16 @@ include utils/CMakeFiles/aruco_print_dictionary.dir/flags.make
 utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o: utils/CMakeFiles/aruco_print_dictionary.dir/flags.make
 utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o: utils/aruco_print_dictionary.cpp
 utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o: utils/CMakeFiles/aruco_print_dictionary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o -MF CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o.d -o CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils/aruco_print_dictionary.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o -MF CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o.d -o CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o -c /home/francisco/Escritorio/Calibration/utils/aruco_print_dictionary.cpp
 
 utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils/aruco_print_dictionary.cpp" > CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils/aruco_print_dictionary.cpp > CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i
 
 utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils/aruco_print_dictionary.cpp" -o CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils/aruco_print_dictionary.cpp -o CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s
 
 # Object files for target aruco_print_dictionary
 aruco_print_dictionary_OBJECTS = \
@@ -102,18 +102,18 @@ utils/aruco_print_dictionary: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4
 utils/aruco_print_dictionary: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 utils/aruco_print_dictionary: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 utils/aruco_print_dictionary: utils/CMakeFiles/aruco_print_dictionary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_print_dictionary"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_print_dictionary.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_print_dictionary"
+	cd /home/francisco/Escritorio/Calibration/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_print_dictionary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/CMakeFiles/aruco_print_dictionary.dir/build: utils/aruco_print_dictionary
 .PHONY : utils/CMakeFiles/aruco_print_dictionary.dir/build
 
 utils/CMakeFiles/aruco_print_dictionary.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" && $(CMAKE_COMMAND) -P CMakeFiles/aruco_print_dictionary.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/utils && $(CMAKE_COMMAND) -P CMakeFiles/aruco_print_dictionary.dir/cmake_clean.cmake
 .PHONY : utils/CMakeFiles/aruco_print_dictionary.dir/clean
 
 utils/CMakeFiles/aruco_print_dictionary.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils/CMakeFiles/aruco_print_dictionary.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils /home/francisco/Escritorio/Calibration/utils/CMakeFiles/aruco_print_dictionary.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : utils/CMakeFiles/aruco_print_dictionary.dir/depend
 

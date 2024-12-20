@@ -1,5 +1,5 @@
 utils_calibration/CMakeFiles/aruco_calibration_fromimages.dir/aruco_calibration_fromimages.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/aruco_calibration_fromimages.cpp \
+ /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration_fromimages.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -237,10 +237,10 @@ utils_calibration/CMakeFiles/aruco_calibration_fromimages.dir/aruco_calibration_
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/aruco.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractaldetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/markerdetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/aruco.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractaldetector.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/markerdetector.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/c++/13/queue \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/bits/stl_queue.h \
@@ -248,29 +248,29 @@ utils_calibration/CMakeFiles/aruco_calibration_fromimages.dir/aruco_calibration_
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/fractallabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../markerlabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/fractalposetracker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../picoflann.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/marker.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/fractallabeler.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../dictionary.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/fractalposetracker.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../picoflann.h \
  /usr/include/c++/13/cassert \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../markerdetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/fractalmarkerset.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/fractalmarker.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../markerdetector.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/fractalmarkerset.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/fractalmarker.h \
  /usr/include/c++/13/bitset \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/posetracker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/cvdrawingutils.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/aruco.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/../src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/aruco_calibration_grid_board_a4.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/dirreader.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../markermap.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../marker.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/posetracker.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/markermap.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/cvdrawingutils.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/aruco.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/../src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration_grid_board_a4.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/dirreader.h \
  /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h

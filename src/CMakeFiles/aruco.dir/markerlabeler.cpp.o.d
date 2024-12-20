@@ -1,9 +1,9 @@
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerlabeler.cpp \
+ /home/francisco/Escritorio/Calibration/src/markerlabeler.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerlabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -233,4 +233,4 @@ src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary_based.h
+ /home/francisco/Escritorio/Calibration/src/dictionary_based.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal//CMakeFiles/progress.marks"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles /home/francisco/Escritorio/Calibration/utils_fractal//CMakeFiles/progress.marks
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/clean
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils_fractal/CMakeFiles/fractal_create.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_create.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_create.dir/rule
 .PHONY : utils_fractal/CMakeFiles/fractal_create.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ fractal_create: utils_fractal/CMakeFiles/fractal_create.dir/rule
 
 # fast build rule for target.
 fractal_create/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/build
 .PHONY : fractal_create/fast
 
 # Convenience name for target.
 utils_fractal/CMakeFiles/fractal_tracker.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_tracker.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_tracker.dir/rule
 .PHONY : utils_fractal/CMakeFiles/fractal_tracker.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ fractal_tracker: utils_fractal/CMakeFiles/fractal_tracker.dir/rule
 
 # fast build rule for target.
 fractal_tracker/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/build
 .PHONY : fractal_tracker/fast
 
 # Convenience name for target.
 utils_fractal/CMakeFiles/fractal_print_marker.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_print_marker.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_print_marker.dir/rule
 .PHONY : utils_fractal/CMakeFiles/fractal_print_marker.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ fractal_print_marker: utils_fractal/CMakeFiles/fractal_print_marker.dir/rule
 
 # fast build rule for target.
 fractal_print_marker/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/build
 .PHONY : fractal_print_marker/fast
 
 # Convenience name for target.
 utils_fractal/CMakeFiles/fractal_pix2meters.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_pix2meters.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_fractal/CMakeFiles/fractal_pix2meters.dir/rule
 .PHONY : utils_fractal/CMakeFiles/fractal_pix2meters.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ fractal_pix2meters: utils_fractal/CMakeFiles/fractal_pix2meters.dir/rule
 
 # fast build rule for target.
 fractal_pix2meters/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/build
 .PHONY : fractal_pix2meters/fast
 
 fractal_create.o: fractal_create.cpp.o
@@ -222,7 +222,7 @@ fractal_create.o: fractal_create.cpp.o
 
 # target to build an object file
 fractal_create.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o
 .PHONY : fractal_create.cpp.o
 
 fractal_create.i: fractal_create.cpp.i
@@ -230,7 +230,7 @@ fractal_create.i: fractal_create.cpp.i
 
 # target to preprocess a source file
 fractal_create.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.i
 .PHONY : fractal_create.cpp.i
 
 fractal_create.s: fractal_create.cpp.s
@@ -238,7 +238,7 @@ fractal_create.s: fractal_create.cpp.s
 
 # target to generate assembly for a file
 fractal_create.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_create.dir/build.make utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.s
 .PHONY : fractal_create.cpp.s
 
 fractal_pix2meters.o: fractal_pix2meters.cpp.o
@@ -246,7 +246,7 @@ fractal_pix2meters.o: fractal_pix2meters.cpp.o
 
 # target to build an object file
 fractal_pix2meters.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.o
 .PHONY : fractal_pix2meters.cpp.o
 
 fractal_pix2meters.i: fractal_pix2meters.cpp.i
@@ -254,7 +254,7 @@ fractal_pix2meters.i: fractal_pix2meters.cpp.i
 
 # target to preprocess a source file
 fractal_pix2meters.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.i
 .PHONY : fractal_pix2meters.cpp.i
 
 fractal_pix2meters.s: fractal_pix2meters.cpp.s
@@ -262,7 +262,7 @@ fractal_pix2meters.s: fractal_pix2meters.cpp.s
 
 # target to generate assembly for a file
 fractal_pix2meters.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_pix2meters.dir/build.make utils_fractal/CMakeFiles/fractal_pix2meters.dir/fractal_pix2meters.cpp.s
 .PHONY : fractal_pix2meters.cpp.s
 
 fractal_print_marker.o: fractal_print_marker.cpp.o
@@ -270,7 +270,7 @@ fractal_print_marker.o: fractal_print_marker.cpp.o
 
 # target to build an object file
 fractal_print_marker.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.o
 .PHONY : fractal_print_marker.cpp.o
 
 fractal_print_marker.i: fractal_print_marker.cpp.i
@@ -278,7 +278,7 @@ fractal_print_marker.i: fractal_print_marker.cpp.i
 
 # target to preprocess a source file
 fractal_print_marker.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.i
 .PHONY : fractal_print_marker.cpp.i
 
 fractal_print_marker.s: fractal_print_marker.cpp.s
@@ -286,7 +286,7 @@ fractal_print_marker.s: fractal_print_marker.cpp.s
 
 # target to generate assembly for a file
 fractal_print_marker.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_print_marker.dir/build.make utils_fractal/CMakeFiles/fractal_print_marker.dir/fractal_print_marker.cpp.s
 .PHONY : fractal_print_marker.cpp.s
 
 fractal_tracker.o: fractal_tracker.cpp.o
@@ -294,7 +294,7 @@ fractal_tracker.o: fractal_tracker.cpp.o
 
 # target to build an object file
 fractal_tracker.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.o
 .PHONY : fractal_tracker.cpp.o
 
 fractal_tracker.i: fractal_tracker.cpp.i
@@ -302,7 +302,7 @@ fractal_tracker.i: fractal_tracker.cpp.i
 
 # target to preprocess a source file
 fractal_tracker.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.i
 .PHONY : fractal_tracker.cpp.i
 
 fractal_tracker.s: fractal_tracker.cpp.s
@@ -310,7 +310,7 @@ fractal_tracker.s: fractal_tracker.cpp.s
 
 # target to generate assembly for a file
 fractal_tracker.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_fractal/CMakeFiles/fractal_tracker.dir/build.make utils_fractal/CMakeFiles/fractal_tracker.dir/fractal_tracker.cpp.s
 .PHONY : fractal_tracker.cpp.s
 
 # Help Target
@@ -352,6 +352,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

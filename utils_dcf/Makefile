@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf//CMakeFiles/progress.marks"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles /home/francisco/Escritorio/Calibration/utils_dcf//CMakeFiles/progress.marks
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/clean
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils_dcf/CMakeFiles/aruco_dcf.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/CMakeFiles/aruco_dcf.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/CMakeFiles/aruco_dcf.dir/rule
 .PHONY : utils_dcf/CMakeFiles/aruco_dcf.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ aruco_dcf: utils_dcf/CMakeFiles/aruco_dcf.dir/rule
 
 # fast build rule for target.
 aruco_dcf/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/build
 .PHONY : aruco_dcf/fast
 
 # Convenience name for target.
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/rule
 .PHONY : utils_dcf/CMakeFiles/aruco_dcf_mm.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ aruco_dcf_mm: utils_dcf/CMakeFiles/aruco_dcf_mm.dir/rule
 
 # fast build rule for target.
 aruco_dcf_mm/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build
 .PHONY : aruco_dcf_mm/fast
 
 aruco_dcf.o: aruco_dcf.cpp.o
@@ -194,7 +194,7 @@ aruco_dcf.o: aruco_dcf.cpp.o
 
 # target to build an object file
 aruco_dcf.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.o
 .PHONY : aruco_dcf.cpp.o
 
 aruco_dcf.i: aruco_dcf.cpp.i
@@ -202,7 +202,7 @@ aruco_dcf.i: aruco_dcf.cpp.i
 
 # target to preprocess a source file
 aruco_dcf.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.i
 .PHONY : aruco_dcf.cpp.i
 
 aruco_dcf.s: aruco_dcf.cpp.s
@@ -210,7 +210,7 @@ aruco_dcf.s: aruco_dcf.cpp.s
 
 # target to generate assembly for a file
 aruco_dcf.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf.dir/build.make utils_dcf/CMakeFiles/aruco_dcf.dir/aruco_dcf.cpp.s
 .PHONY : aruco_dcf.cpp.s
 
 aruco_dcf_markermap.o: aruco_dcf_markermap.cpp.o
@@ -218,7 +218,7 @@ aruco_dcf_markermap.o: aruco_dcf_markermap.cpp.o
 
 # target to build an object file
 aruco_dcf_markermap.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o
 .PHONY : aruco_dcf_markermap.cpp.o
 
 aruco_dcf_markermap.i: aruco_dcf_markermap.cpp.i
@@ -226,7 +226,7 @@ aruco_dcf_markermap.i: aruco_dcf_markermap.cpp.i
 
 # target to preprocess a source file
 aruco_dcf_markermap.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i
 .PHONY : aruco_dcf_markermap.cpp.i
 
 aruco_dcf_markermap.s: aruco_dcf_markermap.cpp.s
@@ -234,7 +234,7 @@ aruco_dcf_markermap.s: aruco_dcf_markermap.cpp.s
 
 # target to generate assembly for a file
 aruco_dcf_markermap.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build.make utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s
 .PHONY : aruco_dcf_markermap.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

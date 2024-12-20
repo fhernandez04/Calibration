@@ -1,4 +1,4 @@
-# Install script for directory: /home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf
+# Install script for directory: /home/francisco/Escritorio/Calibration/utils_dcf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/aruco_dcf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/francisco/Escritorio/Calibration/utils_dcf/aruco_dcf")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf"
-         OLD_RPATH "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src:"
+         OLD_RPATH "/home/francisco/Escritorio/Calibration/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf")
@@ -69,12 +69,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf_mm"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/aruco_dcf_mm")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/francisco/Escritorio/Calibration/utils_dcf/aruco_dcf_mm")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf_mm" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf_mm")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf_mm"
-         OLD_RPATH "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src:"
+         OLD_RPATH "/home/francisco/Escritorio/Calibration/src:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/aruco_dcf_mm")

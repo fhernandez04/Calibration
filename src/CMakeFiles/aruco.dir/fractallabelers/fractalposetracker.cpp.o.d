@@ -1,7 +1,7 @@
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.cpp \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.h \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
@@ -229,12 +229,12 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: \
  /usr/include/opencv2/core/optim.hpp /usr/include/opencv2/core/ovx.hpp \
  /usr/include/opencv2/core/cvdef.h \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../picoflann.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../picoflann.h \
  /usr/include/c++/13/cassert /usr/include/c++/13/iostream \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
  /usr/include/opencv2/core/core.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markerdetector.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markerdetector.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
@@ -242,132 +242,132 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: \
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../marker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.h \
  /usr/include/c++/13/bitset \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../levmarq.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/Core \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/Macros.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/MKL_support.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/Constants.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/Meta.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/StaticAssert.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/XprHelper.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/Memory.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/NumTraits.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/MathFunctions.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/GenericPacketMath.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/Default/Settings.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/StlFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/IO.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/DenseBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/MatrixBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/EigenBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Product.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CoreEvaluators.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/AssignEvaluator.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Assign.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/ArrayBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/BlasUtil.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/DenseStorage.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/NestByValue.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/ReturnByValue.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/NoAlias.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/PlainObjectBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Matrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Array.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CwiseUnaryView.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Dot.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/StableNorm.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Stride.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/MapBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Map.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Ref.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Block.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/VectorBlock.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Transpose.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/DiagonalMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Diagonal.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/DiagonalProduct.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Redux.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Visitor.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Fuzzy.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Swap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CommaInitializer.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/GeneralProduct.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Solve.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Inverse.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/SolverBase.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/PermutationMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Transpositions.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/TriangularMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/SelfAdjointView.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/Parallelizer.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/ProductEvaluators.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/SolveTriangular.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/BandMatrix.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/CoreIterators.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/ConditionEstimator.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/BooleanRedux.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Select.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/VectorwiseOp.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Random.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Replicate.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/Reverse.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/ArrayWrapper.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/GlobalFunctions.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/Cholesky \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/Core \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/Jacobi \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Jacobi/Jacobi.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Cholesky/LLT.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/3rdparty/eigen3/Eigen/src/Cholesky/LDLT.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markermap.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../levmarq.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/Core \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/Macros.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/MKL_support.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/Constants.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/Meta.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/StaticAssert.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/XprHelper.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/Memory.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/NumTraits.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/MathFunctions.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/GenericPacketMath.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/Half.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/arch/CUDA/Complex.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/IO.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/DenseBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/MatrixBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/EigenBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Product.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CoreEvaluators.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/AssignEvaluator.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Assign.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/ArrayBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/BlasUtil.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/DenseStorage.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/NestByValue.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/ReturnByValue.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/NoAlias.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/PlainObjectBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Matrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Array.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Dot.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/StableNorm.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Stride.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/MapBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Map.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Ref.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Block.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/VectorBlock.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Transpose.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Diagonal.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/DiagonalProduct.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Redux.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Visitor.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Fuzzy.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Swap.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CommaInitializer.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/GeneralProduct.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Solve.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Inverse.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/SolverBase.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/PermutationMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Transpositions.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/TriangularMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/SelfAdjointView.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/Parallelizer.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/ProductEvaluators.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/SolveTriangular.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/BandMatrix.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/CoreIterators.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/ConditionEstimator.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/BooleanRedux.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Select.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/VectorwiseOp.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Random.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Replicate.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/Reverse.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/ArrayWrapper.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/GlobalFunctions.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/Cholesky \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/Core \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/Jacobi \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Jacobi/Jacobi.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Cholesky/LLT.h \
+ /home/francisco/Escritorio/Calibration/3rdparty/eigen3/Eigen/src/Cholesky/LDLT.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/iomanip \
  /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
@@ -376,11 +376,11 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../ippe.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../ippe.h \
  /usr/include/opencv2/calib3d.hpp /usr/include/opencv2/features2d.hpp \
  /usr/include/opencv2/flann/miniflann.hpp \
  /usr/include/opencv2/flann/defines.h /usr/include/opencv2/flann/config.h \
  /usr/include/opencv2/core/affine.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../timers.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../timers.h \
  /usr/include/opencv2/calib3d/calib3d.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_cvversioning.h
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_cvversioning.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap//CMakeFiles/progress.marks"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles /home/francisco/Escritorio/Calibration/utils_markermap//CMakeFiles/progress.marks
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/clean
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils_markermap/CMakeFiles/aruco_create_markermap.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_create_markermap.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_create_markermap.dir/rule
 .PHONY : utils_markermap/CMakeFiles/aruco_create_markermap.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ aruco_create_markermap: utils_markermap/CMakeFiles/aruco_create_markermap.dir/ru
 
 # fast build rule for target.
 aruco_create_markermap/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/build
 .PHONY : aruco_create_markermap/fast
 
 # Convenience name for target.
 utils_markermap/CMakeFiles/aruco_simple_markermap.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_simple_markermap.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_simple_markermap.dir/rule
 .PHONY : utils_markermap/CMakeFiles/aruco_simple_markermap.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ aruco_simple_markermap: utils_markermap/CMakeFiles/aruco_simple_markermap.dir/ru
 
 # fast build rule for target.
 aruco_simple_markermap/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build
 .PHONY : aruco_simple_markermap/fast
 
 # Convenience name for target.
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_test_markermap.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_test_markermap.dir/rule
 .PHONY : utils_markermap/CMakeFiles/aruco_test_markermap.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ aruco_test_markermap: utils_markermap/CMakeFiles/aruco_test_markermap.dir/rule
 
 # fast build rule for target.
 aruco_test_markermap/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/build
 .PHONY : aruco_test_markermap/fast
 
 # Convenience name for target.
 utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/rule
 .PHONY : utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ aruco_markermap_pix2meters: utils_markermap/CMakeFiles/aruco_markermap_pix2meter
 
 # fast build rule for target.
 aruco_markermap_pix2meters/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build
 .PHONY : aruco_markermap_pix2meters/fast
 
 aruco_create_markermap.o: aruco_create_markermap.cpp.o
@@ -222,7 +222,7 @@ aruco_create_markermap.o: aruco_create_markermap.cpp.o
 
 # target to build an object file
 aruco_create_markermap.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.o
 .PHONY : aruco_create_markermap.cpp.o
 
 aruco_create_markermap.i: aruco_create_markermap.cpp.i
@@ -230,7 +230,7 @@ aruco_create_markermap.i: aruco_create_markermap.cpp.i
 
 # target to preprocess a source file
 aruco_create_markermap.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.i
 .PHONY : aruco_create_markermap.cpp.i
 
 aruco_create_markermap.s: aruco_create_markermap.cpp.s
@@ -238,7 +238,7 @@ aruco_create_markermap.s: aruco_create_markermap.cpp.s
 
 # target to generate assembly for a file
 aruco_create_markermap.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_create_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.s
 .PHONY : aruco_create_markermap.cpp.s
 
 aruco_markermap_pix2meters.o: aruco_markermap_pix2meters.cpp.o
@@ -246,7 +246,7 @@ aruco_markermap_pix2meters.o: aruco_markermap_pix2meters.cpp.o
 
 # target to build an object file
 aruco_markermap_pix2meters.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.o
 .PHONY : aruco_markermap_pix2meters.cpp.o
 
 aruco_markermap_pix2meters.i: aruco_markermap_pix2meters.cpp.i
@@ -254,7 +254,7 @@ aruco_markermap_pix2meters.i: aruco_markermap_pix2meters.cpp.i
 
 # target to preprocess a source file
 aruco_markermap_pix2meters.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.i
 .PHONY : aruco_markermap_pix2meters.cpp.i
 
 aruco_markermap_pix2meters.s: aruco_markermap_pix2meters.cpp.s
@@ -262,7 +262,7 @@ aruco_markermap_pix2meters.s: aruco_markermap_pix2meters.cpp.s
 
 # target to generate assembly for a file
 aruco_markermap_pix2meters.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/build.make utils_markermap/CMakeFiles/aruco_markermap_pix2meters.dir/aruco_markermap_pix2meters.cpp.s
 .PHONY : aruco_markermap_pix2meters.cpp.s
 
 aruco_simple_markermap.o: aruco_simple_markermap.cpp.o
@@ -270,7 +270,7 @@ aruco_simple_markermap.o: aruco_simple_markermap.cpp.o
 
 # target to build an object file
 aruco_simple_markermap.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.o
 .PHONY : aruco_simple_markermap.cpp.o
 
 aruco_simple_markermap.i: aruco_simple_markermap.cpp.i
@@ -278,7 +278,7 @@ aruco_simple_markermap.i: aruco_simple_markermap.cpp.i
 
 # target to preprocess a source file
 aruco_simple_markermap.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.i
 .PHONY : aruco_simple_markermap.cpp.i
 
 aruco_simple_markermap.s: aruco_simple_markermap.cpp.s
@@ -286,7 +286,7 @@ aruco_simple_markermap.s: aruco_simple_markermap.cpp.s
 
 # target to generate assembly for a file
 aruco_simple_markermap.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_simple_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_simple_markermap.dir/aruco_simple_markermap.cpp.s
 .PHONY : aruco_simple_markermap.cpp.s
 
 aruco_test_markermap.o: aruco_test_markermap.cpp.o
@@ -294,7 +294,7 @@ aruco_test_markermap.o: aruco_test_markermap.cpp.o
 
 # target to build an object file
 aruco_test_markermap.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o
 .PHONY : aruco_test_markermap.cpp.o
 
 aruco_test_markermap.i: aruco_test_markermap.cpp.i
@@ -302,7 +302,7 @@ aruco_test_markermap.i: aruco_test_markermap.cpp.i
 
 # target to preprocess a source file
 aruco_test_markermap.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i
 .PHONY : aruco_test_markermap.cpp.i
 
 aruco_test_markermap.s: aruco_test_markermap.cpp.s
@@ -310,7 +310,7 @@ aruco_test_markermap.s: aruco_test_markermap.cpp.s
 
 # target to generate assembly for a file
 aruco_test_markermap.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s
 .PHONY : aruco_test_markermap.cpp.s
 
 pcdwriter.o: pcdwriter.cpp.o
@@ -318,7 +318,7 @@ pcdwriter.o: pcdwriter.cpp.o
 
 # target to build an object file
 pcdwriter.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o
 .PHONY : pcdwriter.cpp.o
 
 pcdwriter.i: pcdwriter.cpp.i
@@ -326,7 +326,7 @@ pcdwriter.i: pcdwriter.cpp.i
 
 # target to preprocess a source file
 pcdwriter.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i
 .PHONY : pcdwriter.cpp.i
 
 pcdwriter.s: pcdwriter.cpp.s
@@ -334,7 +334,7 @@ pcdwriter.s: pcdwriter.cpp.s
 
 # target to generate assembly for a file
 pcdwriter.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils_markermap/CMakeFiles/aruco_test_markermap.dir/build.make utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s
 .PHONY : pcdwriter.cpp.s
 
 # Help Target
@@ -379,6 +379,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,7 +1,7 @@
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dcf/trackerimpl.cpp \
+ /home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dcf/trackerimpl.h \
+ /home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.h \
  /usr/include/opencv2/core.hpp /usr/include/opencv2/core/cvdef.h \
  /usr/include/opencv2/core/version.hpp /usr/include/c++/13/limits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -229,21 +229,21 @@ src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: \
  /usr/include/opencv2/imgproc/segmentation.hpp \
  /usr/include/opencv2/highgui.hpp /usr/include/opencv2/imgcodecs.hpp \
  /usr/include/opencv2/videoio.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/c++/13/iostream \
  /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/timers.h \
+ /home/francisco/Escritorio/Calibration/src/timers.h \
  /usr/include/c++/13/chrono \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary_based.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary_based.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/markerlabeler.h \
  /usr/include/c++/13/bitset /usr/include/opencv2/calib3d/calib3d.hpp \
  /usr/include/opencv2/calib3d.hpp /usr/include/opencv2/features2d.hpp \
  /usr/include/opencv2/flann/miniflann.hpp \
  /usr/include/opencv2/flann/defines.h /usr/include/opencv2/flann/config.h \
  /usr/include/opencv2/core/affine.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dcf/dcf_utils.h
+ /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.h

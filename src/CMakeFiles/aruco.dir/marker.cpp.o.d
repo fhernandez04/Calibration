@@ -1,8 +1,8 @@
 src/CMakeFiles/aruco.dir/marker.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.cpp \
+ /home/francisco/Escritorio/Calibration/src/marker.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -236,5 +236,5 @@ src/CMakeFiles/aruco.dir/marker.cpp.o: \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp /usr/include/c++/13/math.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/ippe.h
+ /home/francisco/Escritorio/Calibration/src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/ippe.h

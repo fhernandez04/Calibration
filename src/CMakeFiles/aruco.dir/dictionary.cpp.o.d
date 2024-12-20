@@ -1,8 +1,8 @@
 src/CMakeFiles/aruco.dir/dictionary.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.cpp \
+ /home/francisco/Escritorio/Calibration/src/dictionary.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -239,7 +239,7 @@ src/CMakeFiles/aruco.dir/dictionary.cpp.o: \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/markermap.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h

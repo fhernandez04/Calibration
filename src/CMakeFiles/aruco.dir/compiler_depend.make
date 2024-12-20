@@ -151,40 +151,40 @@ src/CMakeFiles/aruco.dir/cameraparameters.cpp.o: src/cameraparameters.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -482,43 +482,43 @@ src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o: src/cvdrawingutils.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -787,41 +787,41 @@ src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: src/dcf/dcf_utils.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -1067,6 +1067,7 @@ src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o: src/dcf/dcfmarkermaptrac
   src/dictionary.h \
   src/dictionary_based.h \
   src/fractaldetector.h \
+  src/aruco_export.h \
   src/cameraparameters.h \
   src/markerdetector.h \
   src/markerlabeler.h \
@@ -1249,46 +1250,46 @@ src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o: src/dcf/dcfmarkermaptrac
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/highgui.hpp \
-  /usr/include/opencv2/imgcodecs.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
-  /usr/include/opencv2/video/tracking.hpp \
-  /usr/include/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/video/tracking.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -1537,6 +1538,7 @@ src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o: src/dcf/dcfmarkertracker.cp
   src/dictionary.h \
   src/dictionary_based.h \
   src/fractaldetector.h \
+  src/aruco_export.h \
   src/cameraparameters.h \
   src/markerdetector.h \
   src/markerlabeler.h \
@@ -1718,45 +1720,45 @@ src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o: src/dcf/dcfmarkertracker.cp
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/highgui.hpp \
-  /usr/include/opencv2/imgcodecs.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
-  /usr/include/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -2034,45 +2036,45 @@ src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: src/dcf/trackerimpl.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/highgui.hpp \
-  /usr/include/opencv2/imgcodecs.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
-  /usr/include/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -2543,36 +2545,36 @@ src/CMakeFiles/aruco.dir/dictionary.cpp.o: src/dictionary.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -2846,36 +2848,36 @@ src/CMakeFiles/aruco.dir/dictionary_based.cpp.o: src/dictionary_based.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -3172,43 +3174,43 @@ src/CMakeFiles/aruco.dir/fractaldetector.cpp.o: src/fractaldetector.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -3325,7 +3327,6 @@ src/CMakeFiles/aruco.dir/fractaldetector.cpp.o: src/fractaldetector.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: src/fractallabelers/fractallabeler.cpp \
-  src/aruco_export.h \
   src/aruco_cvversioning.h \
   src/aruco_export.h \
   src/cameraparameters.h \
@@ -3496,36 +3497,36 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: src/fractallabele
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -3791,36 +3792,36 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o: src/fractallabeler
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -3937,7 +3938,6 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o: src/fractallabeler
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o: src/fractallabelers/fractalmarkerset.cpp \
-  src/aruco_export.h \
   src/aruco_export.h \
   src/marker.h \
   src/markermap.h \
@@ -4096,36 +4096,36 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o: src/fractallabe
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -4362,7 +4362,6 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: src/fractalla
   3rdparty/eigen3/Eigen/src/Core/util/StaticAssert.h \
   3rdparty/eigen3/Eigen/src/Core/util/XprHelper.h \
   3rdparty/eigen3/Eigen/src/Jacobi/Jacobi.h \
-  src/aruco_export.h \
   src/aruco_cvversioning.h \
   src/aruco_export.h \
   src/cameraparameters.h \
@@ -4541,43 +4540,43 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: src/fractalla
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -4842,40 +4841,40 @@ src/CMakeFiles/aruco.dir/ippe.cpp.o: src/ippe.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -5141,43 +5140,43 @@ src/CMakeFiles/aruco.dir/marker.cpp.o: src/marker.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -5476,44 +5475,44 @@ src/CMakeFiles/aruco.dir/markerdetector.cpp.o: src/markerdetector.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/features2d/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/features2d/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -5814,44 +5813,44 @@ src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: src/markerdetector_impl.cpp 
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/features2d/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/features2d/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -6123,33 +6122,33 @@ src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: src/markerlabeler.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -6422,43 +6421,43 @@ src/CMakeFiles/aruco.dir/markermap.cpp.o: src/markermap.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -6863,40 +6862,40 @@ src/CMakeFiles/aruco.dir/posetracker.cpp.o: src/posetracker.cpp \
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/calib3d.hpp \
-  /usr/include/opencv2/calib3d/calib3d.hpp \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/affine.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/features2d.hpp \
-  /usr/include/opencv2/flann/config.h \
-  /usr/include/opencv2/flann/defines.h \
-  /usr/include/opencv2/flann/miniflann.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/calib3d.hpp \
+  /usr/include/opencv4/opencv2/calib3d/calib3d.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/affine.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/features2d.hpp \
+  /usr/include/opencv4/opencv2/flann/config.h \
+  /usr/include/opencv4/opencv2/flann/defines.h \
+  /usr/include/opencv4/opencv2/flann/miniflann.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -7017,7 +7016,9 @@ src/CMakeFiles/aruco.dir/posetracker.cpp.o: src/posetracker.cpp \
 
 src/posetracker.cpp:
 
-/usr/include/opencv2/features2d/features2d.hpp:
+src/markerdetector_impl.cpp:
+
+/usr/include/opencv4/opencv2/features2d/features2d.hpp:
 
 /usr/include/c++/13/valarray:
 
@@ -7049,9 +7050,7 @@ src/fractaldetector.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
-/usr/include/opencv2/imgcodecs.hpp:
-
-/usr/include/opencv2/highgui.hpp:
+/usr/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/include/libintl.h:
 
@@ -7083,6 +7082,8 @@ src/dcf/dcfmarkermaptracker.h:
 
 3rdparty/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
+3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
 3rdparty/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
 
 /usr/include/c++/13/thread:
@@ -7090,10 +7091,6 @@ src/dcf/dcfmarkermaptracker.h:
 3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 3rdparty/eigen3/Eigen/src/Core/products/Parallelizer.h:
-
-src/dictionary_based.cpp:
-
-3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
 3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
 
@@ -7110,8 +7107,6 @@ src/dictionary_based.cpp:
 3rdparty/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
 3rdparty/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
-3rdparty/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
 3rdparty/eigen3/Eigen/src/Core/Visitor.h:
 
@@ -7137,6 +7132,8 @@ src/dictionary_based.cpp:
 
 3rdparty/eigen3/Eigen/src/Core/Ref.h:
 
+/usr/include/opencv4/opencv2/videoio.hpp:
+
 3rdparty/eigen3/Eigen/src/Core/Redux.h:
 
 3rdparty/eigen3/Eigen/src/Core/PlainObjectBase.h:
@@ -7161,13 +7158,15 @@ src/ippe.cpp:
 
 3rdparty/eigen3/Eigen/src/Core/EigenBase.h:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+3rdparty/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
 3rdparty/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
 src/markerdetector_impl.h:
 
 3rdparty/eigen3/Eigen/src/Core/Diagonal.h:
-
-3rdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
 3rdparty/eigen3/Eigen/src/Core/CwiseTernaryOp.h:
 
@@ -7176,6 +7175,8 @@ src/markerdetector_impl.h:
 3rdparty/eigen3/Eigen/src/Core/Map.h:
 
 3rdparty/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
+
+3rdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
 
 3rdparty/eigen3/Eigen/src/Core/CoreIterators.h:
 
@@ -7191,15 +7192,9 @@ src/markerdetector_impl.h:
 
 3rdparty/eigen3/Eigen/src/Core/Assign.h:
 
-3rdparty/eigen3/Eigen/src/Core/ArrayWrapper.h:
-
 3rdparty/eigen3/Eigen/src/Core/ArrayBase.h:
 
 3rdparty/eigen3/Eigen/src/Core/Array.h:
-
-src/ippe.h:
-
-3rdparty/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
 
 3rdparty/eigen3/Eigen/src/Core/util/Macros.h:
 
@@ -7225,9 +7220,13 @@ src/markermap.cpp:
 
 src/dcf/dcf_utils.h:
 
+/usr/include/opencv4/opencv2/highgui.hpp:
+
 3rdparty/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
 
 src/dcf/dcf_utils.cpp:
+
+/usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
 /usr/include/c++/13/queue:
 
@@ -7244,12 +7243,6 @@ src/dcf/dcf_utils.cpp:
 /usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/erase_if.h:
-
-3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
-
-3rdparty/eigen3/Eigen/src/Core/MapBase.h:
-
-/usr/include/c++/13/bits/deque.tcc:
 
 3rdparty/eigen3/Eigen/src/Core/NumTraits.h:
 
@@ -7279,11 +7272,17 @@ src/marker.h:
 
 src/fractaldetector.h:
 
+src/cvdrawingutils.h:
+
 3rdparty/eigen3/Eigen/Jacobi:
 
 src/aruco.h:
 
 src/cvdrawingutils.cpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 3rdparty/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h:
 
@@ -7302,10 +7301,6 @@ src/cvdrawingutils.cpp:
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/opencv2/imgproc.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -7375,11 +7370,11 @@ src/dcf/dcfmarkermaptracker.cpp:
 
 /usr/include/c++/13/functional:
 
-/usr/include/c++/13/iostream:
-
 /usr/include/c++/13/ext/type_traits.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/13/ext/concurrence.h:
 
@@ -7395,6 +7390,8 @@ src/dcf/dcfmarkermaptracker.cpp:
 
 /usr/include/c++/13/debug/assertions.h:
 
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
 /usr/include/c++/13/ctime:
 
 3rdparty/eigen3/Eigen/src/Core/Dot.h:
@@ -7405,13 +7402,9 @@ src/dcf/dcfmarkermaptracker.cpp:
 
 /usr/include/c++/13/fstream:
 
+/usr/include/opencv4/opencv2/core/hal/interface.h:
+
 /usr/include/c++/13/cmath:
-
-src/aruco_cvversioning.h:
-
-/usr/include/opencv2/imgproc/imgproc.hpp:
-
-/usr/include/c++/13/clocale:
 
 /usr/include/c++/13/cstddef:
 
@@ -7419,11 +7412,11 @@ src/aruco_cvversioning.h:
 
 3rdparty/eigen3/Eigen/src/Core/Swap.h:
 
-/usr/include/opencv2/imgproc/segmentation.hpp:
-
 /usr/include/c++/13/climits:
 
 /usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
@@ -7451,12 +7444,6 @@ src/cameraparameters.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
-3rdparty/eigen3/Eigen/src/Core/DiagonalProduct.h:
-
-/usr/include/opencv2/core/mat.hpp:
-
 /usr/include/c++/13/memory:
 
 3rdparty/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
@@ -7471,13 +7458,15 @@ src/cameraparameters.h:
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
 /usr/include/c++/13/bits/functexcept.h:
 
-/usr/include/opencv2/calib3d/calib3d.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/std_mutex.h:
 
@@ -7487,11 +7476,11 @@ src/markerlabeler.cpp:
 
 /usr/include/c++/13/bits/allocator.h:
 
-/usr/include/opencv2/core/saturate.hpp:
-
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/exception:
+
+/usr/include/opencv4/opencv2/core/persistence.hpp:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
@@ -7501,7 +7490,9 @@ src/markerlabeler.cpp:
 
 /usr/include/c++/13/bits/postypes.h:
 
-/usr/include/opencv2/core/affine.hpp:
+/usr/include/c++/13/iostream:
+
+/usr/include/opencv4/opencv2/core/cvstd.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -7512,8 +7503,6 @@ src/markerlabeler.cpp:
 /usr/include/c++/13/set:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
-
-/usr/include/opencv2/core/hal/interface.h:
 
 3rdparty/eigen3/Eigen/src/Core/ProductEvaluators.h:
 
@@ -7539,6 +7528,8 @@ src/markerlabeler.cpp:
 
 3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
+/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:
+
 /usr/include/c++/13/bits/move.h:
 
 /usr/include/c++/13/bits/basic_string.h:
@@ -7560,6 +7551,10 @@ src/markerlabeler.cpp:
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/stl_tree.h:
+
+/usr/include/c++/13/bits/codecvt.h:
 
 src/dictionary_based.h:
 
@@ -7587,21 +7582,27 @@ src/dictionary.h:
 
 /usr/include/c++/13/bits/concept_check.h:
 
-/usr/include/opencv2/core/cv_cpu_dispatch.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 3rdparty/eigen3/Eigen/src/Core/MathFunctionsImpl.h:
 
 /usr/include/c++/13/ios:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/include/opencv4/opencv2/calib3d.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/opencv4/opencv2/core/types.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/c++/13/bits/std_function.h:
 
 /usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/opencv2/core/neon_utils.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
@@ -7627,8 +7628,6 @@ src/aruco_export.h:
 
 /usr/include/c++/13/system_error:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/13/cwchar:
@@ -7646,10 +7645,6 @@ src/aruco_export.h:
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/opencv2/calib3d.hpp:
 
 /usr/include/c++/13/bits/algorithmfwd.h:
 
@@ -7675,10 +7670,6 @@ src/markerdetector.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/opencv2/core/vsx_utils.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
@@ -7689,7 +7680,9 @@ src/markerdetector.h:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -7697,7 +7690,7 @@ src/markerdetector.h:
 
 /usr/include/assert.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
+/usr/include/opencv4/opencv2/calib3d/calib3d.hpp:
 
 3rdparty/eigen3/Eigen/src/Core/ReturnByValue.h:
 
@@ -7723,13 +7716,11 @@ src/dcf/dcfmarkertracker.cpp:
 
 /usr/include/c++/13/streambuf:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/opencv2/core/cvstd.inl.hpp:
-
 /usr/include/c++/13/condition_variable:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
 
@@ -7741,10 +7732,6 @@ src/dcf/dcfmarkertracker.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/c++/13/bits/functional_hash.h:
@@ -7755,7 +7742,7 @@ src/markerdetector.cpp:
 
 /usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/opencv2/core/ovx.hpp:
+/usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
@@ -7781,6 +7768,12 @@ src/dictionary.cpp:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/include/c++/13/bits/fstream.tcc:
+
 /usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -7790,6 +7783,12 @@ src/dictionary.cpp:
 3rdparty/eigen3/Eigen/src/Core/AssignEvaluator.h:
 
 /usr/include/c++/13/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/opencv4/opencv2/core/affine.hpp:
+
+/usr/include/opencv4/opencv2/core/fast_math.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
@@ -7807,7 +7806,11 @@ src/dictionary.cpp:
 
 /usr/include/c++/13/utility:
 
+/usr/include/opencv4/opencv2/flann/miniflann.hpp:
+
 /usr/include/c++/13/vector:
+
+/usr/include/opencv4/opencv2/core/version.hpp:
 
 3rdparty/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
 
@@ -7831,6 +7834,8 @@ src/dictionary.cpp:
 
 /usr/include/linux/errno.h:
 
+/usr/include/opencv4/opencv2/core/core.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/13/ratio:
@@ -7845,99 +7850,93 @@ src/dictionary.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/opencv2/core.hpp:
+src/ippe.h:
 
-/usr/include/opencv2/core/base.hpp:
+3rdparty/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/usr/include/opencv4/opencv2/core.hpp:
+
+/usr/include/opencv4/opencv2/core/base.hpp:
+
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/usr/include/opencv4/opencv2/core/check.hpp:
+
+src/aruco_cvversioning.h:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/opencv2/core/bufferpool.hpp:
+3rdparty/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h:
 
-/usr/include/opencv2/core/check.hpp:
+/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
 
-src/markerdetector_impl.cpp:
+/usr/include/c++/13/bits/stl_construct.h:
 
-/usr/include/opencv2/videoio.hpp:
+/usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
-/usr/include/opencv2/core/core.hpp:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-3rdparty/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
+/usr/include/c++/13/bits/exception_defines.h:
 
-/usr/include/opencv2/core/cvdef.h:
+/usr/include/opencv4/opencv2/core/mat.hpp:
 
-/usr/include/opencv2/core/cvstd.hpp:
+3rdparty/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
-/usr/include/c++/13/bits/stl_tree.h:
+/usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
-/usr/include/c++/13/bits/codecvt.h:
+/usr/include/opencv4/opencv2/core/matx.hpp:
 
-/usr/include/opencv2/core/cvstd_wrapper.hpp:
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
 
-/usr/include/opencv2/core/fast_math.hpp:
+/usr/include/opencv4/opencv2/video/tracking.hpp:
 
-src/cvdrawingutils.h:
+/usr/include/opencv4/opencv2/core/operations.hpp:
 
-/usr/include/opencv2/core/mat.inl.hpp:
+/usr/include/opencv4/opencv2/core/saturate.hpp:
 
-3rdparty/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
+/usr/include/opencv4/opencv2/core/traits.hpp:
 
-/usr/include/opencv2/core/matx.hpp:
+/usr/include/opencv4/opencv2/core/ovx.hpp:
 
-/usr/include/opencv2/core/operations.hpp:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+3rdparty/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
-/usr/include/opencv2/core/optim.hpp:
+3rdparty/eigen3/Eigen/src/Core/MapBase.h:
 
-/usr/include/opencv2/core/persistence.hpp:
+/usr/include/c++/13/bits/deque.tcc:
 
-/usr/include/c++/13/bits/charconv.h:
+/usr/include/opencv4/opencv2/core/vsx_utils.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+3rdparty/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
-/usr/include/opencv2/core/types.hpp:
+/usr/include/opencv4/opencv2/features2d.hpp:
 
-/usr/include/c++/13/bits/fstream.tcc:
+/usr/include/string.h:
 
-/usr/include/opencv2/core/utility.hpp:
+/usr/include/opencv4/opencv2/imgproc.hpp:
 
-/usr/include/c++/13/map:
+/usr/include/opencv4/opencv2/flann/config.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+src/dictionary_based.cpp:
 
-/usr/include/c++/13/bits/ostream.tcc:
+3rdparty/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h:
 
-/usr/include/opencv2/core/version.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/chrono.h:
-
-/usr/include/opencv2/features2d.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/opencv2/flann/config.h:
-
-/usr/include/opencv2/video/tracking.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/opencv2/flann/defines.h:
-
-/usr/include/opencv2/flann/miniflann.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/opencv2/opencv_modules.hpp:
+/usr/include/opencv4/opencv2/flann/defines.h:
 
 /usr/include/pthread.h:
 
@@ -7947,8 +7946,6 @@ src/cvdrawingutils.h:
 
 /usr/include/sched.h:
 
-/usr/include/opencv2/core/traits.hpp:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
@@ -7956,8 +7953,6 @@ src/cvdrawingutils.h:
 /usr/include/stdio.h:
 
 /usr/include/stdlib.h:
-
-/usr/include/string.h:
 
 /usr/include/c++/13/iomanip:
 
@@ -7971,9 +7966,9 @@ src/cvdrawingutils.h:
 
 /usr/include/wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 3rdparty/eigen3/Eigen/src/Core/Inverse.h:
 
@@ -7985,11 +7980,17 @@ src/cvdrawingutils.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/include/c++/13/map:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/c++/13/sstream:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -8004,12 +8005,6 @@ src/cvdrawingutils.h:
 3rdparty/eigen3/Eigen/src/Core/Stride.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -8030,6 +8025,10 @@ src/cvdrawingutils.h:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 3rdparty/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 

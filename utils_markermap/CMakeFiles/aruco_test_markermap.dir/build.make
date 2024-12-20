@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include utils_markermap/CMakeFiles/aruco_test_markermap.dir/depend.make
@@ -72,30 +72,30 @@ include utils_markermap/CMakeFiles/aruco_test_markermap.dir/flags.make
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o: utils_markermap/CMakeFiles/aruco_test_markermap.dir/flags.make
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o: utils_markermap/aruco_test_markermap.cpp
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o: utils_markermap/CMakeFiles/aruco_test_markermap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o -MF CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o.d -o CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/aruco_test_markermap.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o -MF CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o.d -o CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.o -c /home/francisco/Escritorio/Calibration/utils_markermap/aruco_test_markermap.cpp
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/aruco_test_markermap.cpp" > CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_markermap/aruco_test_markermap.cpp > CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.i
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/aruco_test_markermap.cpp" -o CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_markermap/aruco_test_markermap.cpp -o CMakeFiles/aruco_test_markermap.dir/aruco_test_markermap.cpp.s
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o: utils_markermap/CMakeFiles/aruco_test_markermap.dir/flags.make
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o: utils_markermap/pcdwriter.cpp
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o: utils_markermap/CMakeFiles/aruco_test_markermap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o -MF CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o.d -o CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/pcdwriter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o -MF CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o.d -o CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.o -c /home/francisco/Escritorio/Calibration/utils_markermap/pcdwriter.cpp
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/pcdwriter.cpp" > CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_markermap/pcdwriter.cpp > CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.i
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/pcdwriter.cpp" -o CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_markermap/pcdwriter.cpp -o CMakeFiles/aruco_test_markermap.dir/pcdwriter.cpp.s
 
 # Object files for target aruco_test_markermap
 aruco_test_markermap_OBJECTS = \
@@ -118,18 +118,18 @@ utils_markermap/aruco_test_markermap: /usr/lib/x86_64-linux-gnu/libopencv_imgcod
 utils_markermap/aruco_test_markermap: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 utils_markermap/aruco_test_markermap: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 utils_markermap/aruco_test_markermap: utils_markermap/CMakeFiles/aruco_test_markermap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aruco_test_markermap"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_test_markermap.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aruco_test_markermap"
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_test_markermap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/build: utils_markermap/aruco_test_markermap
 .PHONY : utils_markermap/CMakeFiles/aruco_test_markermap.dir/build
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" && $(CMAKE_COMMAND) -P CMakeFiles/aruco_test_markermap.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/utils_markermap && $(CMAKE_COMMAND) -P CMakeFiles/aruco_test_markermap.dir/cmake_clean.cmake
 .PHONY : utils_markermap/CMakeFiles/aruco_test_markermap.dir/clean
 
 utils_markermap/CMakeFiles/aruco_test_markermap.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/CMakeFiles/aruco_test_markermap.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_markermap /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_markermap /home/francisco/Escritorio/Calibration/utils_markermap/CMakeFiles/aruco_test_markermap.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : utils_markermap/CMakeFiles/aruco_test_markermap.dir/depend
 

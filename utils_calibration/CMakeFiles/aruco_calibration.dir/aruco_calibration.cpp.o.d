@@ -1,10 +1,10 @@
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/aruco_calibration.cpp \
+ /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractaldetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerdetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/aruco.h \
+ /home/francisco/Escritorio/Calibration/src/fractaldetector.h \
+ /home/francisco/Escritorio/Calibration/src/markerdetector.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -237,35 +237,35 @@ utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o: \
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markerlabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../picoflann.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../picoflann.h \
  /usr/include/c++/13/cassert \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markerdetector.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markerdetector.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.h \
  /usr/include/c++/13/bitset \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/posetracker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cvdrawingutils.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/calibrator.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markermap.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../marker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/posetracker.h \
+ /home/francisco/Escritorio/Calibration/src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/markermap.h \
+ /home/francisco/Escritorio/Calibration/src/cvdrawingutils.h \
+ /home/francisco/Escritorio/Calibration/src/aruco.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/markermap.h \
+ /home/francisco/Escritorio/Calibration/src/cameraparameters.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/fstream \
  /usr/include/c++/13/bits/codecvt.h \

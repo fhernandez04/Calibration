@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include utils_fractal/CMakeFiles/fractal_create.dir/depend.make
@@ -72,16 +72,16 @@ include utils_fractal/CMakeFiles/fractal_create.dir/flags.make
 utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/CMakeFiles/fractal_create.dir/flags.make
 utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/fractal_create.cpp
 utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/CMakeFiles/fractal_create.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o -MF CMakeFiles/fractal_create.dir/fractal_create.cpp.o.d -o CMakeFiles/fractal_create.dir/fractal_create.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal/fractal_create.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_fractal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o -MF CMakeFiles/fractal_create.dir/fractal_create.cpp.o.d -o CMakeFiles/fractal_create.dir/fractal_create.cpp.o -c /home/francisco/Escritorio/Calibration/utils_fractal/fractal_create.cpp
 
 utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal_create.dir/fractal_create.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal/fractal_create.cpp" > CMakeFiles/fractal_create.dir/fractal_create.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_fractal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_fractal/fractal_create.cpp > CMakeFiles/fractal_create.dir/fractal_create.cpp.i
 
 utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal_create.dir/fractal_create.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal/fractal_create.cpp" -o CMakeFiles/fractal_create.dir/fractal_create.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_fractal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_fractal/fractal_create.cpp -o CMakeFiles/fractal_create.dir/fractal_create.cpp.s
 
 # Object files for target fractal_create
 fractal_create_OBJECTS = \
@@ -102,18 +102,18 @@ utils_fractal/fractal_create: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4
 utils_fractal/fractal_create: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 utils_fractal/fractal_create: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 utils_fractal/fractal_create: utils_fractal/CMakeFiles/fractal_create.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fractal_create"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractal_create.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fractal_create"
+	cd /home/francisco/Escritorio/Calibration/utils_fractal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractal_create.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils_fractal/CMakeFiles/fractal_create.dir/build: utils_fractal/fractal_create
 .PHONY : utils_fractal/CMakeFiles/fractal_create.dir/build
 
 utils_fractal/CMakeFiles/fractal_create.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" && $(CMAKE_COMMAND) -P CMakeFiles/fractal_create.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/utils_fractal && $(CMAKE_COMMAND) -P CMakeFiles/fractal_create.dir/cmake_clean.cmake
 .PHONY : utils_fractal/CMakeFiles/fractal_create.dir/clean
 
 utils_fractal/CMakeFiles/fractal_create.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal/CMakeFiles/fractal_create.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_fractal /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_fractal /home/francisco/Escritorio/Calibration/utils_fractal/CMakeFiles/fractal_create.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : utils_fractal/CMakeFiles/fractal_create.dir/depend
 

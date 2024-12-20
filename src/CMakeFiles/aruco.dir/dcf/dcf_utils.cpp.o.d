@@ -1,7 +1,7 @@
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dcf/dcf_utils.cpp \
+ /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_cvversioning.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_cvversioning.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -228,7 +228,7 @@ src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: \
  /usr/include/opencv2/core/optim.hpp /usr/include/opencv2/core/ovx.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dcf/dcf_utils.h \
+ /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.h \
  /usr/include/opencv2/calib3d.hpp /usr/include/opencv2/features2d.hpp \
  /usr/include/opencv2/flann/miniflann.hpp \
  /usr/include/opencv2/flann/defines.h /usr/include/opencv2/flann/config.h \

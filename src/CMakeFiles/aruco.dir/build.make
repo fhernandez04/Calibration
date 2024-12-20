@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/aruco.dir/depend.make
@@ -72,296 +72,296 @@ include src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/cameraparameters.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/cameraparameters.cpp.o: src/cameraparameters.cpp
 src/CMakeFiles/aruco.dir/cameraparameters.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/aruco.dir/cameraparameters.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/cameraparameters.cpp.o -MF CMakeFiles/aruco.dir/cameraparameters.cpp.o.d -o CMakeFiles/aruco.dir/cameraparameters.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cameraparameters.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/aruco.dir/cameraparameters.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/cameraparameters.cpp.o -MF CMakeFiles/aruco.dir/cameraparameters.cpp.o.d -o CMakeFiles/aruco.dir/cameraparameters.cpp.o -c /home/francisco/Escritorio/Calibration/src/cameraparameters.cpp
 
 src/CMakeFiles/aruco.dir/cameraparameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/cameraparameters.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cameraparameters.cpp" > CMakeFiles/aruco.dir/cameraparameters.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/cameraparameters.cpp > CMakeFiles/aruco.dir/cameraparameters.cpp.i
 
 src/CMakeFiles/aruco.dir/cameraparameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/cameraparameters.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cameraparameters.cpp" -o CMakeFiles/aruco.dir/cameraparameters.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/cameraparameters.cpp -o CMakeFiles/aruco.dir/cameraparameters.cpp.s
 
 src/CMakeFiles/aruco.dir/debug.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/debug.cpp.o: src/debug.cpp
 src/CMakeFiles/aruco.dir/debug.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/aruco.dir/debug.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/debug.cpp.o -MF CMakeFiles/aruco.dir/debug.cpp.o.d -o CMakeFiles/aruco.dir/debug.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/debug.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/aruco.dir/debug.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/debug.cpp.o -MF CMakeFiles/aruco.dir/debug.cpp.o.d -o CMakeFiles/aruco.dir/debug.cpp.o -c /home/francisco/Escritorio/Calibration/src/debug.cpp
 
 src/CMakeFiles/aruco.dir/debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/debug.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/debug.cpp" > CMakeFiles/aruco.dir/debug.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/debug.cpp > CMakeFiles/aruco.dir/debug.cpp.i
 
 src/CMakeFiles/aruco.dir/debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/debug.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/debug.cpp" -o CMakeFiles/aruco.dir/debug.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/debug.cpp -o CMakeFiles/aruco.dir/debug.cpp.s
 
 src/CMakeFiles/aruco.dir/dictionary.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dictionary.cpp.o: src/dictionary.cpp
 src/CMakeFiles/aruco.dir/dictionary.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/aruco.dir/dictionary.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dictionary.cpp.o -MF CMakeFiles/aruco.dir/dictionary.cpp.o.d -o CMakeFiles/aruco.dir/dictionary.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/aruco.dir/dictionary.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dictionary.cpp.o -MF CMakeFiles/aruco.dir/dictionary.cpp.o.d -o CMakeFiles/aruco.dir/dictionary.cpp.o -c /home/francisco/Escritorio/Calibration/src/dictionary.cpp
 
 src/CMakeFiles/aruco.dir/dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dictionary.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary.cpp" > CMakeFiles/aruco.dir/dictionary.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dictionary.cpp > CMakeFiles/aruco.dir/dictionary.cpp.i
 
 src/CMakeFiles/aruco.dir/dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dictionary.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary.cpp" -o CMakeFiles/aruco.dir/dictionary.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dictionary.cpp -o CMakeFiles/aruco.dir/dictionary.cpp.s
 
 src/CMakeFiles/aruco.dir/ippe.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/ippe.cpp.o: src/ippe.cpp
 src/CMakeFiles/aruco.dir/ippe.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/aruco.dir/ippe.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/ippe.cpp.o -MF CMakeFiles/aruco.dir/ippe.cpp.o.d -o CMakeFiles/aruco.dir/ippe.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/ippe.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/aruco.dir/ippe.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/ippe.cpp.o -MF CMakeFiles/aruco.dir/ippe.cpp.o.d -o CMakeFiles/aruco.dir/ippe.cpp.o -c /home/francisco/Escritorio/Calibration/src/ippe.cpp
 
 src/CMakeFiles/aruco.dir/ippe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/ippe.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/ippe.cpp" > CMakeFiles/aruco.dir/ippe.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/ippe.cpp > CMakeFiles/aruco.dir/ippe.cpp.i
 
 src/CMakeFiles/aruco.dir/ippe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/ippe.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/ippe.cpp" -o CMakeFiles/aruco.dir/ippe.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/ippe.cpp -o CMakeFiles/aruco.dir/ippe.cpp.s
 
 src/CMakeFiles/aruco.dir/markerdetector.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/markerdetector.cpp.o: src/markerdetector.cpp
 src/CMakeFiles/aruco.dir/markerdetector.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/aruco.dir/markerdetector.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerdetector.cpp.o -MF CMakeFiles/aruco.dir/markerdetector.cpp.o.d -o CMakeFiles/aruco.dir/markerdetector.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/aruco.dir/markerdetector.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerdetector.cpp.o -MF CMakeFiles/aruco.dir/markerdetector.cpp.o.d -o CMakeFiles/aruco.dir/markerdetector.cpp.o -c /home/francisco/Escritorio/Calibration/src/markerdetector.cpp
 
 src/CMakeFiles/aruco.dir/markerdetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/markerdetector.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector.cpp" > CMakeFiles/aruco.dir/markerdetector.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/markerdetector.cpp > CMakeFiles/aruco.dir/markerdetector.cpp.i
 
 src/CMakeFiles/aruco.dir/markerdetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/markerdetector.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector.cpp" -o CMakeFiles/aruco.dir/markerdetector.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/markerdetector.cpp -o CMakeFiles/aruco.dir/markerdetector.cpp.s
 
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: src/markerlabeler.cpp
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/aruco.dir/markerlabeler.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerlabeler.cpp.o -MF CMakeFiles/aruco.dir/markerlabeler.cpp.o.d -o CMakeFiles/aruco.dir/markerlabeler.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerlabeler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/aruco.dir/markerlabeler.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerlabeler.cpp.o -MF CMakeFiles/aruco.dir/markerlabeler.cpp.o.d -o CMakeFiles/aruco.dir/markerlabeler.cpp.o -c /home/francisco/Escritorio/Calibration/src/markerlabeler.cpp
 
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/markerlabeler.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerlabeler.cpp" > CMakeFiles/aruco.dir/markerlabeler.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/markerlabeler.cpp > CMakeFiles/aruco.dir/markerlabeler.cpp.i
 
 src/CMakeFiles/aruco.dir/markerlabeler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/markerlabeler.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerlabeler.cpp" -o CMakeFiles/aruco.dir/markerlabeler.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/markerlabeler.cpp -o CMakeFiles/aruco.dir/markerlabeler.cpp.s
 
 src/CMakeFiles/aruco.dir/posetracker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/posetracker.cpp.o: src/posetracker.cpp
 src/CMakeFiles/aruco.dir/posetracker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/aruco.dir/posetracker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/posetracker.cpp.o -MF CMakeFiles/aruco.dir/posetracker.cpp.o.d -o CMakeFiles/aruco.dir/posetracker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/posetracker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/aruco.dir/posetracker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/posetracker.cpp.o -MF CMakeFiles/aruco.dir/posetracker.cpp.o.d -o CMakeFiles/aruco.dir/posetracker.cpp.o -c /home/francisco/Escritorio/Calibration/src/posetracker.cpp
 
 src/CMakeFiles/aruco.dir/posetracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/posetracker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/posetracker.cpp" > CMakeFiles/aruco.dir/posetracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/posetracker.cpp > CMakeFiles/aruco.dir/posetracker.cpp.i
 
 src/CMakeFiles/aruco.dir/posetracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/posetracker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/posetracker.cpp" -o CMakeFiles/aruco.dir/posetracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/posetracker.cpp -o CMakeFiles/aruco.dir/posetracker.cpp.s
 
 src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o: src/cvdrawingutils.cpp
 src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o -MF CMakeFiles/aruco.dir/cvdrawingutils.cpp.o.d -o CMakeFiles/aruco.dir/cvdrawingutils.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cvdrawingutils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.o -MF CMakeFiles/aruco.dir/cvdrawingutils.cpp.o.d -o CMakeFiles/aruco.dir/cvdrawingutils.cpp.o -c /home/francisco/Escritorio/Calibration/src/cvdrawingutils.cpp
 
 src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/cvdrawingutils.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cvdrawingutils.cpp" > CMakeFiles/aruco.dir/cvdrawingutils.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/cvdrawingutils.cpp > CMakeFiles/aruco.dir/cvdrawingutils.cpp.i
 
 src/CMakeFiles/aruco.dir/cvdrawingutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/cvdrawingutils.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cvdrawingutils.cpp" -o CMakeFiles/aruco.dir/cvdrawingutils.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/cvdrawingutils.cpp -o CMakeFiles/aruco.dir/cvdrawingutils.cpp.s
 
 src/CMakeFiles/aruco.dir/dictionary_based.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dictionary_based.cpp.o: src/dictionary_based.cpp
 src/CMakeFiles/aruco.dir/dictionary_based.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/aruco.dir/dictionary_based.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dictionary_based.cpp.o -MF CMakeFiles/aruco.dir/dictionary_based.cpp.o.d -o CMakeFiles/aruco.dir/dictionary_based.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary_based.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/aruco.dir/dictionary_based.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dictionary_based.cpp.o -MF CMakeFiles/aruco.dir/dictionary_based.cpp.o.d -o CMakeFiles/aruco.dir/dictionary_based.cpp.o -c /home/francisco/Escritorio/Calibration/src/dictionary_based.cpp
 
 src/CMakeFiles/aruco.dir/dictionary_based.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dictionary_based.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary_based.cpp" > CMakeFiles/aruco.dir/dictionary_based.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dictionary_based.cpp > CMakeFiles/aruco.dir/dictionary_based.cpp.i
 
 src/CMakeFiles/aruco.dir/dictionary_based.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dictionary_based.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dictionary_based.cpp" -o CMakeFiles/aruco.dir/dictionary_based.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dictionary_based.cpp -o CMakeFiles/aruco.dir/dictionary_based.cpp.s
 
 src/CMakeFiles/aruco.dir/marker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/marker.cpp.o: src/marker.cpp
 src/CMakeFiles/aruco.dir/marker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/aruco.dir/marker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/marker.cpp.o -MF CMakeFiles/aruco.dir/marker.cpp.o.d -o CMakeFiles/aruco.dir/marker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/marker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/aruco.dir/marker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/marker.cpp.o -MF CMakeFiles/aruco.dir/marker.cpp.o.d -o CMakeFiles/aruco.dir/marker.cpp.o -c /home/francisco/Escritorio/Calibration/src/marker.cpp
 
 src/CMakeFiles/aruco.dir/marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/marker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/marker.cpp" > CMakeFiles/aruco.dir/marker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/marker.cpp > CMakeFiles/aruco.dir/marker.cpp.i
 
 src/CMakeFiles/aruco.dir/marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/marker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/marker.cpp" -o CMakeFiles/aruco.dir/marker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/marker.cpp -o CMakeFiles/aruco.dir/marker.cpp.s
 
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: src/markerdetector_impl.cpp
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o -MF CMakeFiles/aruco.dir/markerdetector_impl.cpp.o.d -o CMakeFiles/aruco.dir/markerdetector_impl.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector_impl.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o -MF CMakeFiles/aruco.dir/markerdetector_impl.cpp.o.d -o CMakeFiles/aruco.dir/markerdetector_impl.cpp.o -c /home/francisco/Escritorio/Calibration/src/markerdetector_impl.cpp
 
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/markerdetector_impl.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector_impl.cpp" > CMakeFiles/aruco.dir/markerdetector_impl.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/markerdetector_impl.cpp > CMakeFiles/aruco.dir/markerdetector_impl.cpp.i
 
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/markerdetector_impl.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markerdetector_impl.cpp" -o CMakeFiles/aruco.dir/markerdetector_impl.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/markerdetector_impl.cpp -o CMakeFiles/aruco.dir/markerdetector_impl.cpp.s
 
 src/CMakeFiles/aruco.dir/markermap.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/markermap.cpp.o: src/markermap.cpp
 src/CMakeFiles/aruco.dir/markermap.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/aruco.dir/markermap.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markermap.cpp.o -MF CMakeFiles/aruco.dir/markermap.cpp.o.d -o CMakeFiles/aruco.dir/markermap.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markermap.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/aruco.dir/markermap.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/markermap.cpp.o -MF CMakeFiles/aruco.dir/markermap.cpp.o.d -o CMakeFiles/aruco.dir/markermap.cpp.o -c /home/francisco/Escritorio/Calibration/src/markermap.cpp
 
 src/CMakeFiles/aruco.dir/markermap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/markermap.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markermap.cpp" > CMakeFiles/aruco.dir/markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/markermap.cpp > CMakeFiles/aruco.dir/markermap.cpp.i
 
 src/CMakeFiles/aruco.dir/markermap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/markermap.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/markermap.cpp" -o CMakeFiles/aruco.dir/markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/markermap.cpp -o CMakeFiles/aruco.dir/markermap.cpp.s
 
 src/CMakeFiles/aruco.dir/fractaldetector.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/fractaldetector.cpp.o: src/fractaldetector.cpp
 src/CMakeFiles/aruco.dir/fractaldetector.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/aruco.dir/fractaldetector.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractaldetector.cpp.o -MF CMakeFiles/aruco.dir/fractaldetector.cpp.o.d -o CMakeFiles/aruco.dir/fractaldetector.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractaldetector.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/aruco.dir/fractaldetector.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractaldetector.cpp.o -MF CMakeFiles/aruco.dir/fractaldetector.cpp.o.d -o CMakeFiles/aruco.dir/fractaldetector.cpp.o -c /home/francisco/Escritorio/Calibration/src/fractaldetector.cpp
 
 src/CMakeFiles/aruco.dir/fractaldetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/fractaldetector.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractaldetector.cpp" > CMakeFiles/aruco.dir/fractaldetector.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/fractaldetector.cpp > CMakeFiles/aruco.dir/fractaldetector.cpp.i
 
 src/CMakeFiles/aruco.dir/fractaldetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/fractaldetector.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractaldetector.cpp" -o CMakeFiles/aruco.dir/fractaldetector.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/fractaldetector.cpp -o CMakeFiles/aruco.dir/fractaldetector.cpp.s
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: src/fractallabelers/fractalposetracker.cpp
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.o -c /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.cpp
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.cpp" > CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.cpp > CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.i
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.cpp" -o CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.cpp -o CMakeFiles/aruco.dir/fractallabelers/fractalposetracker.cpp.s
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o: src/fractallabelers/fractalmarkerset.cpp
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.o -c /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.cpp
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.cpp" > CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.cpp > CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.i
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.cpp" -o CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.cpp -o CMakeFiles/aruco.dir/fractallabelers/fractalmarkerset.cpp.s
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o: src/fractallabelers/fractalmarker.cpp
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.o -c /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.cpp
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.cpp" > CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.cpp > CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.i
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.cpp" -o CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.cpp -o CMakeFiles/aruco.dir/fractallabelers/fractalmarker.cpp.s
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: src/fractallabelers/fractallabeler.cpp
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o -MF CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o.d -o CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o -c /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.cpp
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.cpp" > CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.cpp > CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.i
 
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.cpp" -o CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.cpp -o CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.s
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o: src/dcf/dcfmarkermaptracker.cpp
 src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkermaptracker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.o -c /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkermaptracker.cpp
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkermaptracker.cpp" > CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkermaptracker.cpp > CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.i
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkermaptracker.cpp" -o CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkermaptracker.cpp -o CMakeFiles/aruco.dir/dcf/dcfmarkermaptracker.cpp.s
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o: src/dcf/dcfmarkertracker.cpp
 src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkertracker.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.o -c /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkertracker.cpp
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkertracker.cpp" > CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkertracker.cpp > CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.i
 
 src/CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcfmarkertracker.cpp" -o CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dcf/dcfmarkertracker.cpp -o CMakeFiles/aruco.dir/dcf/dcfmarkertracker.cpp.s
 
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: src/dcf/dcf_utils.cpp
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcf_utils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o -MF CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o.d -o CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.o -c /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.cpp
 
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcf_utils.cpp" > CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.cpp > CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.i
 
 src/CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/dcf_utils.cpp" -o CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dcf/dcf_utils.cpp -o CMakeFiles/aruco.dir/dcf/dcf_utils.cpp.s
 
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: src/CMakeFiles/aruco.dir/flags.make
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: src/dcf/trackerimpl.cpp
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o: src/CMakeFiles/aruco.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o -MF CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o.d -o CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/trackerimpl.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o -MF CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o.d -o CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.o -c /home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.cpp
 
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/trackerimpl.cpp" > CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.i
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.cpp > CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.i
 
 src/CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/dcf/trackerimpl.cpp" -o CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.s
+	cd /home/francisco/Escritorio/Calibration/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/src/dcf/trackerimpl.cpp -o CMakeFiles/aruco.dir/dcf/trackerimpl.cpp.s
 
 # Object files for target aruco
 aruco_OBJECTS = \
@@ -418,9 +418,9 @@ src/libaruco.so.3.1.12: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 src/libaruco.so.3.1.12: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.6.0
 src/libaruco.so.3.1.12: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 src/libaruco.so.3.1.12: src/CMakeFiles/aruco.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX shared library libaruco.so"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco.dir/link.txt --verbose=$(VERBOSE)
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && $(CMAKE_COMMAND) -E cmake_symlink_library libaruco.so.3.1.12 libaruco.so.3.1 libaruco.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX shared library libaruco.so"
+	cd /home/francisco/Escritorio/Calibration/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/francisco/Escritorio/Calibration/src && $(CMAKE_COMMAND) -E cmake_symlink_library libaruco.so.3.1.12 libaruco.so.3.1 libaruco.so
 
 src/libaruco.so.3.1: src/libaruco.so.3.1.12
 	@$(CMAKE_COMMAND) -E touch_nocreate src/libaruco.so.3.1
@@ -433,10 +433,10 @@ src/CMakeFiles/aruco.dir/build: src/libaruco.so
 .PHONY : src/CMakeFiles/aruco.dir/build
 
 src/CMakeFiles/aruco.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" && $(CMAKE_COMMAND) -P CMakeFiles/aruco.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/src && $(CMAKE_COMMAND) -P CMakeFiles/aruco.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/aruco.dir/clean
 
 src/CMakeFiles/aruco.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/CMakeFiles/aruco.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/src /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/src /home/francisco/Escritorio/Calibration/src/CMakeFiles/aruco.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/aruco.dir/depend
 

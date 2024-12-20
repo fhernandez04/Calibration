@@ -1,8 +1,8 @@
 utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_markermap/aruco_create_markermap.cpp \
+ /home/francisco/Escritorio/Calibration/utils_markermap/aruco_create_markermap.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -232,8 +232,8 @@ utils_markermap/CMakeFiles/aruco_create_markermap.dir/aruco_create_markermap.cpp
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/markermap.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
  /usr/include/opencv2/highgui/highgui.hpp \
  /usr/include/opencv2/highgui.hpp /usr/include/opencv2/imgcodecs.hpp \
  /usr/include/opencv2/videoio.hpp

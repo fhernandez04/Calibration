@@ -159,40 +159,40 @@ utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/
   /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
-  /usr/include/opencv2/core.hpp \
-  /usr/include/opencv2/core/base.hpp \
-  /usr/include/opencv2/core/bufferpool.hpp \
-  /usr/include/opencv2/core/check.hpp \
-  /usr/include/opencv2/core/core.hpp \
-  /usr/include/opencv2/core/cv_cpu_dispatch.h \
-  /usr/include/opencv2/core/cvdef.h \
-  /usr/include/opencv2/core/cvstd.hpp \
-  /usr/include/opencv2/core/cvstd.inl.hpp \
-  /usr/include/opencv2/core/cvstd_wrapper.hpp \
-  /usr/include/opencv2/core/fast_math.hpp \
-  /usr/include/opencv2/core/hal/interface.h \
-  /usr/include/opencv2/core/mat.hpp \
-  /usr/include/opencv2/core/mat.inl.hpp \
-  /usr/include/opencv2/core/matx.hpp \
-  /usr/include/opencv2/core/neon_utils.hpp \
-  /usr/include/opencv2/core/operations.hpp \
-  /usr/include/opencv2/core/optim.hpp \
-  /usr/include/opencv2/core/ovx.hpp \
-  /usr/include/opencv2/core/persistence.hpp \
-  /usr/include/opencv2/core/saturate.hpp \
-  /usr/include/opencv2/core/traits.hpp \
-  /usr/include/opencv2/core/types.hpp \
-  /usr/include/opencv2/core/utility.hpp \
-  /usr/include/opencv2/core/version.hpp \
-  /usr/include/opencv2/core/vsx_utils.hpp \
-  /usr/include/opencv2/highgui.hpp \
-  /usr/include/opencv2/highgui/highgui.hpp \
-  /usr/include/opencv2/imgcodecs.hpp \
-  /usr/include/opencv2/imgproc.hpp \
-  /usr/include/opencv2/imgproc/imgproc.hpp \
-  /usr/include/opencv2/imgproc/segmentation.hpp \
-  /usr/include/opencv2/opencv_modules.hpp \
-  /usr/include/opencv2/videoio.hpp \
+  /usr/include/opencv4/opencv2/core.hpp \
+  /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
+  /usr/include/opencv4/opencv2/core/check.hpp \
+  /usr/include/opencv4/opencv2/core/core.hpp \
+  /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+  /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/core/cvstd.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd.inl.hpp \
+  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /usr/include/opencv4/opencv2/core/fast_math.hpp \
+  /usr/include/opencv4/opencv2/core/hal/interface.h \
+  /usr/include/opencv4/opencv2/core/mat.hpp \
+  /usr/include/opencv4/opencv2/core/mat.inl.hpp \
+  /usr/include/opencv4/opencv2/core/matx.hpp \
+  /usr/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/include/opencv4/opencv2/core/operations.hpp \
+  /usr/include/opencv4/opencv2/core/optim.hpp \
+  /usr/include/opencv4/opencv2/core/ovx.hpp \
+  /usr/include/opencv4/opencv2/core/persistence.hpp \
+  /usr/include/opencv4/opencv2/core/saturate.hpp \
+  /usr/include/opencv4/opencv2/core/traits.hpp \
+  /usr/include/opencv4/opencv2/core/types.hpp \
+  /usr/include/opencv4/opencv2/core/utility.hpp \
+  /usr/include/opencv4/opencv2/core/version.hpp \
+  /usr/include/opencv4/opencv2/core/vsx_utils.hpp \
+  /usr/include/opencv4/opencv2/highgui.hpp \
+  /usr/include/opencv4/opencv2/highgui/highgui.hpp \
+  /usr/include/opencv4/opencv2/imgcodecs.hpp \
+  /usr/include/opencv4/opencv2/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/imgproc.hpp \
+  /usr/include/opencv4/opencv2/imgproc/segmentation.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/videoio.hpp \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -311,6 +311,10 @@ utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
@@ -323,7 +327,7 @@ utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
@@ -387,13 +391,19 @@ utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/
 
 /usr/include/c++/13/debug/assertions.h:
 
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
 /usr/include/c++/13/ctime:
 
 /usr/include/c++/13/cstdio:
 
+/usr/include/opencv4/opencv2/core/hal/interface.h:
+
 /usr/include/c++/13/cmath:
 
 /usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/c++/13/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
@@ -411,11 +421,9 @@ utils_fractal/CMakeFiles/fractal_create.dir/fractal_create.cpp.o: utils_fractal/
 
 /usr/include/c++/13/bits/streambuf.tcc:
 
-/usr/include/opencv2/core/mat.hpp:
-
 /usr/include/c++/13/bits/stl_map.h:
 
-/usr/include/opencv2/core/types.hpp:
+/usr/include/c++/13/bits/stl_tree.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
 
@@ -433,11 +441,15 @@ src/markermap.h:
 
 /usr/include/asm-generic/errno.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
 /usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/std_mutex.h:
 
@@ -445,9 +457,9 @@ src/markermap.h:
 
 /usr/include/c++/13/bits/allocator.h:
 
-/usr/include/opencv2/core/saturate.hpp:
-
 /usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/include/c++/13/bits/stl_algo.h:
 
@@ -467,9 +479,11 @@ src/markermap.h:
 
 /usr/include/c++/13/bits/erase_if.h:
 
-/usr/include/opencv2/core/hal/interface.h:
+/usr/include/opencv4/opencv2/imgproc.hpp:
 
 /usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -501,8 +515,6 @@ src/dictionary.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
-utils_fractal/fractal_create.cpp:
-
 /usr/include/locale.h:
 
 /usr/include/c++/13/bits/utility.h:
@@ -517,13 +529,9 @@ utils_fractal/fractal_create.cpp:
 
 /usr/include/c++/13/bits/concept_check.h:
 
-/usr/include/opencv2/core/cv_cpu_dispatch.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/c++/13/ios:
-
-/usr/include/opencv2/imgcodecs.hpp:
 
 /usr/include/c++/13/bits/basic_ios.h:
 
@@ -535,13 +543,13 @@ utils_fractal/fractal_create.cpp:
 
 /usr/include/c++/13/mutex:
 
+/usr/include/opencv4/opencv2/highgui.hpp:
+
 /usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bit:
 
 /usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/opencv2/highgui.hpp:
 
 src/fractallabelers/fractalmarkerset.h:
 
@@ -553,23 +561,21 @@ src/fractallabelers/fractalmarkerset.h:
 
 /usr/include/c++/13/exception:
 
+/usr/include/opencv4/opencv2/core/persistence.hpp:
+
 /usr/include/c++/13/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/c++/13/bits/ios_base.h:
 
-/usr/include/opencv2/core/ovx.hpp:
+/usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/c++/13/complex:
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
-
-/usr/include/opencv2/core/vsx_utils.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -581,7 +587,9 @@ src/fractallabelers/fractalmarkerset.h:
 
 /usr/include/c++/13/array:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/opencv4/opencv2/core/utility.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
@@ -592,10 +600,6 @@ src/fractallabelers/fractalmarkerset.h:
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/13/cwchar:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/opencv2/imgproc.hpp:
 
 /usr/include/c++/13/iosfwd:
 
@@ -611,23 +615,21 @@ src/fractallabelers/fractalmarkerset.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
-
 /usr/include/assert.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/13/bits/chrono.h:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/opencv4/opencv2/core/types.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/c++/13/bits/std_function.h:
 
 /usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/opencv2/core/neon_utils.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
@@ -645,21 +647,13 @@ src/fractallabelers/fractalmarkerset.h:
 
 src/fractallabelers/fractalmarker.h:
 
-/usr/include/c++/13/bits/move.h:
-
 /usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/opencv2/imgproc/segmentation.hpp:
 
 /usr/include/c++/13/climits:
 
 /usr/include/c++/13/bits/exception.h:
 
 /usr/include/c++/13/streambuf:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/opencv2/core/cvstd.inl.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -673,10 +667,6 @@ src/fractallabelers/fractalmarker.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
 /usr/include/c++/13/bits/basic_ios.tcc:
 
 /usr/include/c++/13/bits/functional_hash.h:
@@ -687,10 +677,6 @@ src/fractallabelers/fractalmarker.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/c++/13/clocale:
-
-/usr/include/opencv2/imgproc/imgproc.hpp:
-
 /usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -698,10 +684,6 @@ src/fractallabelers/fractalmarker.h:
 /usr/include/c++/13/bits/uniform_int_dist.h:
 
 /usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/shared_ptr.h:
-
-/usr/include/opencv2/highgui/highgui.hpp:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
@@ -711,7 +693,17 @@ src/fractallabelers/fractalmarker.h:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/include/opencv4/opencv2/core/cvstd.hpp:
+
 /usr/include/c++/13/iostream:
+
+/usr/include/c++/13/bits/move.h:
+
+/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:
 
 /usr/include/c++/13/istream:
 
@@ -733,6 +725,8 @@ src/aruco_export.h:
 
 /usr/include/c++/13/stdlib.h:
 
+/usr/include/opencv4/opencv2/core/fast_math.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/13/string:
@@ -748,6 +742,8 @@ src/aruco_export.h:
 /usr/include/c++/13/utility:
 
 /usr/include/c++/13/vector:
+
+/usr/include/opencv4/opencv2/core/version.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
 
@@ -765,6 +761,8 @@ src/aruco_export.h:
 
 /usr/include/linux/errno.h:
 
+/usr/include/opencv4/opencv2/core/core.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/13/ratio:
@@ -777,71 +775,75 @@ src/aruco_export.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/opencv2/core.hpp:
+/usr/include/opencv4/opencv2/core.hpp:
 
-/usr/include/opencv2/core/base.hpp:
+/usr/include/opencv4/opencv2/core/base.hpp:
+
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
+
+/usr/include/opencv4/opencv2/core/check.hpp:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/opencv2/core/bufferpool.hpp:
+/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:
 
-/usr/include/opencv2/core/check.hpp:
+/usr/include/c++/13/bits/stl_construct.h:
 
-/usr/include/opencv2/core/cvdef.h:
+/usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
-/usr/include/opencv2/core/cvstd.hpp:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/c++/13/bits/stl_tree.h:
+/usr/include/c++/13/bits/exception_defines.h:
 
-/usr/include/opencv2/core/cvstd_wrapper.hpp:
+/usr/include/opencv4/opencv2/core/mat.hpp:
 
-/usr/include/opencv2/core/fast_math.hpp:
+utils_fractal/fractal_create.cpp:
 
-/usr/include/opencv2/core/mat.inl.hpp:
+/usr/include/opencv4/opencv2/core/mat.inl.hpp:
 
-/usr/include/opencv2/core/matx.hpp:
+/usr/include/opencv4/opencv2/core/matx.hpp:
 
-/usr/include/opencv2/core/operations.hpp:
+/usr/include/opencv4/opencv2/core/neon_utils.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+/usr/include/opencv4/opencv2/core/operations.hpp:
 
-/usr/include/opencv2/core/optim.hpp:
+/usr/include/opencv4/opencv2/core/saturate.hpp:
 
-/usr/include/opencv2/core/persistence.hpp:
+/usr/include/opencv4/opencv2/core/traits.hpp:
 
-/usr/include/c++/13/bits/charconv.h:
+/usr/include/opencv4/opencv2/core/ovx.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/opencv2/core/utility.hpp:
+/usr/include/opencv4/opencv2/core/vsx_utils.hpp:
 
-/usr/include/c++/13/map:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/opencv2/core/version.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/opencv2/opencv_modules.hpp:
-
-/usr/include/opencv2/core/core.hpp:
-
-/usr/include/opencv2/videoio.hpp:
+/usr/include/opencv4/opencv2/highgui/highgui.hpp:
 
 /usr/include/pthread.h:
+
+/usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
+
+/usr/include/opencv4/opencv2/videoio.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
-
-/usr/include/opencv2/core/traits.hpp:
 
 /usr/include/stdc-predef.h:
 
@@ -865,13 +867,15 @@ src/aruco_export.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
 /usr/include/c++/13/bits/requires_hosted.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/13/map:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -891,14 +895,6 @@ src/aruco_export.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
@@ -916,5 +912,9 @@ src/aruco_export.h:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:

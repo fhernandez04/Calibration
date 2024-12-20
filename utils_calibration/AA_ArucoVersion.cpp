@@ -3,6 +3,8 @@ g++ -I../src -I/usr/include/opencv4 -I/usr/include/opencv -L/usr/lib -L/usr/loca
 -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_calib3d -lopencv_imgcodecs -laruco
 
 ./utils_calibration/AA_ArucoVersion utils_calibration/AA_FOTOS_PRUEBA/ PRUEBA.yml
+
+./utils_fractal/fractal_tracker VID_20241210_115532.mp4 -s 0.173 -cam PRUEBA.yml -c FRACTAL_4L_6
 */
 
 #include <algorithm>
@@ -35,7 +37,7 @@ int main(int argc, char **argv) {
     glob(argv[1], fileNames, false);  // Change the image path
 
     // Defining the marker size (length in meters)
-    const float markerLength = 0.241f;  // Length of the marker in meters (adjust as needed)
+    const float markerLength = 0.173f;  // Length of the marker in meters (adjust as needed)
 
     // Defining the ArUco marker dictionary
     

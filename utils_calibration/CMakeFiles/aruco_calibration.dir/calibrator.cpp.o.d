@@ -1,7 +1,7 @@
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/calibrator.cpp \
+ /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/utils_calibration/calibrator.h \
+ /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -115,8 +115,8 @@ utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits /usr/include/opencv2/core/hal/interface.h \
@@ -231,9 +231,9 @@ utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: \
  /usr/include/c++/13/bits/unique_lock.h \
  /usr/include/opencv2/core/optim.hpp /usr/include/opencv2/core/ovx.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/c++/13/iostream \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/markermap.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/cameraparameters.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /usr/include/opencv2/calib3d/calib3d.hpp \

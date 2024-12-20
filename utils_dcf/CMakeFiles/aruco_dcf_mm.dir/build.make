@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include utils_dcf/CMakeFiles/aruco_dcf_mm.dir/depend.make
@@ -72,16 +72,16 @@ include utils_dcf/CMakeFiles/aruco_dcf_mm.dir/flags.make
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o: utils_dcf/CMakeFiles/aruco_dcf_mm.dir/flags.make
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o: utils_dcf/aruco_dcf_markermap.cpp
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o: utils_dcf/CMakeFiles/aruco_dcf_mm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o -MF CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o.d -o CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/aruco_dcf_markermap.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_dcf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o -MF CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o.d -o CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.o -c /home/francisco/Escritorio/Calibration/utils_dcf/aruco_dcf_markermap.cpp
 
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/aruco_dcf_markermap.cpp" > CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_dcf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_dcf/aruco_dcf_markermap.cpp > CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.i
 
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/aruco_dcf_markermap.cpp" -o CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_dcf && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_dcf/aruco_dcf_markermap.cpp -o CMakeFiles/aruco_dcf_mm.dir/aruco_dcf_markermap.cpp.s
 
 # Object files for target aruco_dcf_mm
 aruco_dcf_mm_OBJECTS = \
@@ -102,18 +102,18 @@ utils_dcf/aruco_dcf_mm: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.6.0
 utils_dcf/aruco_dcf_mm: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 utils_dcf/aruco_dcf_mm: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 utils_dcf/aruco_dcf_mm: utils_dcf/CMakeFiles/aruco_dcf_mm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_dcf_mm"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_dcf_mm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_dcf_mm"
+	cd /home/francisco/Escritorio/Calibration/utils_dcf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_dcf_mm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build: utils_dcf/aruco_dcf_mm
 .PHONY : utils_dcf/CMakeFiles/aruco_dcf_mm.dir/build
 
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" && $(CMAKE_COMMAND) -P CMakeFiles/aruco_dcf_mm.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/utils_dcf && $(CMAKE_COMMAND) -P CMakeFiles/aruco_dcf_mm.dir/cmake_clean.cmake
 .PHONY : utils_dcf/CMakeFiles/aruco_dcf_mm.dir/clean
 
 utils_dcf/CMakeFiles/aruco_dcf_mm.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/CMakeFiles/aruco_dcf_mm.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_dcf /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_dcf /home/francisco/Escritorio/Calibration/utils_dcf/CMakeFiles/aruco_dcf_mm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : utils_dcf/CMakeFiles/aruco_dcf_mm.dir/depend
 

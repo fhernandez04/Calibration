@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 # Include any dependencies generated for this target.
 include utils_calibration/CMakeFiles/aruco_calibration.dir/depend.make
@@ -72,30 +72,30 @@ include utils_calibration/CMakeFiles/aruco_calibration.dir/flags.make
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o: utils_calibration/CMakeFiles/aruco_calibration.dir/flags.make
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o: utils_calibration/aruco_calibration.cpp
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o: utils_calibration/CMakeFiles/aruco_calibration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o -MF CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o.d -o CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/aruco_calibration.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o -MF CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o.d -o CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.o -c /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration.cpp
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/aruco_calibration.cpp" > CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration.cpp > CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.i
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/aruco_calibration.cpp" -o CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_calibration/aruco_calibration.cpp -o CMakeFiles/aruco_calibration.dir/aruco_calibration.cpp.s
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: utils_calibration/CMakeFiles/aruco_calibration.dir/flags.make
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: utils_calibration/calibrator.cpp
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o: utils_calibration/CMakeFiles/aruco_calibration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o -MF CMakeFiles/aruco_calibration.dir/calibrator.cpp.o.d -o CMakeFiles/aruco_calibration.dir/calibrator.cpp.o -c "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/calibrator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o"
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.o -MF CMakeFiles/aruco_calibration.dir/calibrator.cpp.o.d -o CMakeFiles/aruco_calibration.dir/calibrator.cpp.o -c /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.cpp
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aruco_calibration.dir/calibrator.cpp.i"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/calibrator.cpp" > CMakeFiles/aruco_calibration.dir/calibrator.cpp.i
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.cpp > CMakeFiles/aruco_calibration.dir/calibrator.cpp.i
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/calibrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aruco_calibration.dir/calibrator.cpp.s"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/calibrator.cpp" -o CMakeFiles/aruco_calibration.dir/calibrator.cpp.s
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/Calibration/utils_calibration/calibrator.cpp -o CMakeFiles/aruco_calibration.dir/calibrator.cpp.s
 
 # Object files for target aruco_calibration
 aruco_calibration_OBJECTS = \
@@ -118,18 +118,18 @@ utils_calibration/aruco_calibration: /usr/lib/x86_64-linux-gnu/libopencv_imgcode
 utils_calibration/aruco_calibration: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 utils_calibration/aruco_calibration: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 utils_calibration/aruco_calibration: utils_calibration/CMakeFiles/aruco_calibration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aruco_calibration"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_calibration.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/francisco/Escritorio/Calibration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aruco_calibration"
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_calibration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils_calibration/CMakeFiles/aruco_calibration.dir/build: utils_calibration/aruco_calibration
 .PHONY : utils_calibration/CMakeFiles/aruco_calibration.dir/build
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" && $(CMAKE_COMMAND) -P CMakeFiles/aruco_calibration.dir/cmake_clean.cmake
+	cd /home/francisco/Escritorio/Calibration/utils_calibration && $(CMAKE_COMMAND) -P CMakeFiles/aruco_calibration.dir/cmake_clean.cmake
 .PHONY : utils_calibration/CMakeFiles/aruco_calibration.dir/clean
 
 utils_calibration/CMakeFiles/aruco_calibration.dir/depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/CMakeFiles/aruco_calibration.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_calibration /home/francisco/Escritorio/Calibration /home/francisco/Escritorio/Calibration/utils_calibration /home/francisco/Escritorio/Calibration/utils_calibration/CMakeFiles/aruco_calibration.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : utils_calibration/CMakeFiles/aruco_calibration.dir/depend
 

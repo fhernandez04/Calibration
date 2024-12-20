@@ -1,10 +1,10 @@
 src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.cpp \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractallabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markerlabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractallabeler.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../dictionary.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -234,22 +234,22 @@ src/CMakeFiles/aruco.dir/fractallabelers/fractallabeler.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalposetracker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalposetracker.h \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../picoflann.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../picoflann.h \
  /usr/include/c++/13/cassert \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markerdetector.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markerdetector.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
  /usr/include/c++/13/condition_variable \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarkerset.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/fractalmarker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../marker.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarkerset.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/fractalmarker.h \
  /usr/include/c++/13/bitset \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../markermap.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_export.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/fractallabelers/../aruco_cvversioning.h
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../markermap.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/fractallabelers/../aruco_cvversioning.h

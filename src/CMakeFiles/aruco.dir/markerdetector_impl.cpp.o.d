@@ -1,8 +1,8 @@
 src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerdetector_impl.cpp \
+ /home/francisco/Escritorio/Calibration/src/markerdetector_impl.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerdetector_impl.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/markerdetector_impl.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/core/core.hpp /usr/include/opencv2/core.hpp \
  /usr/include/opencv2/core/cvdef.h /usr/include/opencv2/core/version.hpp \
  /usr/include/c++/13/limits \
@@ -235,15 +235,15 @@ src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: \
  /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/marker.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerdetector.h \
+ /home/francisco/Escritorio/Calibration/src/marker.h \
+ /home/francisco/Escritorio/Calibration/src/markerdetector.h \
  /usr/include/opencv2/imgproc/imgproc.hpp \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/cameraparameters.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/markerlabeler.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/dictionary.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/timers.h \
+ /home/francisco/Escritorio/Calibration/src/cameraparameters.h \
+ /home/francisco/Escritorio/Calibration/src/markerlabeler.h \
+ /home/francisco/Escritorio/Calibration/src/dictionary.h \
+ /home/francisco/Escritorio/Calibration/src/timers.h \
  /usr/include/c++/13/chrono \
  /usr/include/opencv2/features2d/features2d.hpp \
  /usr/include/opencv2/features2d.hpp \
@@ -266,5 +266,5 @@ src/CMakeFiles/aruco.dir/markerdetector_impl.cpp.o: \
  /usr/include/c++/13/bits/indirect_array.h /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/debug.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_cvversioning.h
+ /home/francisco/Escritorio/Calibration/src/debug.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_cvversioning.h

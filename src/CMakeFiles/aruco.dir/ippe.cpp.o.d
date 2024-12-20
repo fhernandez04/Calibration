@@ -1,7 +1,7 @@
 src/CMakeFiles/aruco.dir/ippe.cpp.o: \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/ippe.cpp \
+ /home/francisco/Escritorio/Calibration/src/ippe.cpp \
  /usr/include/stdc-predef.h \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/ippe.h \
+ /home/francisco/Escritorio/Calibration/src/ippe.h \
  /usr/include/opencv2/core.hpp /usr/include/opencv2/core/cvdef.h \
  /usr/include/opencv2/core/version.hpp /usr/include/c++/13/limits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -230,7 +230,7 @@ src/CMakeFiles/aruco.dir/ippe.cpp.o: \
  /usr/include/opencv2/flann/miniflann.hpp \
  /usr/include/opencv2/flann/defines.h /usr/include/opencv2/flann/config.h \
  /usr/include/opencv2/core/affine.hpp \
- /home/francisco/Escritorio/Proyect\ Management\ Medical\ Applications/aruco-3.1.12/src/aruco_export.h \
+ /home/francisco/Escritorio/Calibration/src/aruco_export.h \
  /usr/include/opencv2/imgproc.hpp \
  /usr/include/opencv2/imgproc/segmentation.hpp \
  /usr/include/c++/13/iostream

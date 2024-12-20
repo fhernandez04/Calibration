@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/Calibration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12"
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/Calibration
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils//CMakeFiles/progress.marks"
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/CMakeFiles" 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles /home/francisco/Escritorio/Calibration/utils//CMakeFiles/progress.marks
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/Calibration/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/clean
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_print_dictionary.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_print_dictionary.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_print_dictionary.dir/rule
 .PHONY : utils/CMakeFiles/aruco_print_dictionary.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ aruco_print_dictionary: utils/CMakeFiles/aruco_print_dictionary.dir/rule
 
 # fast build rule for target.
 aruco_print_dictionary/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/build
 .PHONY : aruco_print_dictionary/fast
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_print_marker.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_print_marker.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_print_marker.dir/rule
 .PHONY : utils/CMakeFiles/aruco_print_marker.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ aruco_print_marker: utils/CMakeFiles/aruco_print_marker.dir/rule
 
 # fast build rule for target.
 aruco_print_marker/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/build
 .PHONY : aruco_print_marker/fast
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_simple.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_simple.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_simple.dir/rule
 .PHONY : utils/CMakeFiles/aruco_simple.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ aruco_simple: utils/CMakeFiles/aruco_simple.dir/rule
 
 # fast build rule for target.
 aruco_simple/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/build
 .PHONY : aruco_simple/fast
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_test.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_test.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_test.dir/rule
 .PHONY : utils/CMakeFiles/aruco_test.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ aruco_test: utils/CMakeFiles/aruco_test.dir/rule
 
 # fast build rule for target.
 aruco_test/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/build
 .PHONY : aruco_test/fast
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_tracker.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_tracker.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_tracker.dir/rule
 .PHONY : utils/CMakeFiles/aruco_tracker.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ aruco_tracker: utils/CMakeFiles/aruco_tracker.dir/rule
 
 # fast build rule for target.
 aruco_tracker/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/build
 .PHONY : aruco_tracker/fast
 
 # Convenience name for target.
 utils/CMakeFiles/aruco_batch_processing.dir/rule:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_batch_processing.dir/rule
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils/CMakeFiles/aruco_batch_processing.dir/rule
 .PHONY : utils/CMakeFiles/aruco_batch_processing.dir/rule
 
 # Convenience name for target.
@@ -242,7 +242,7 @@ aruco_batch_processing: utils/CMakeFiles/aruco_batch_processing.dir/rule
 
 # fast build rule for target.
 aruco_batch_processing/fast:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/build
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/build
 .PHONY : aruco_batch_processing/fast
 
 aruco_batch_processing.o: aruco_batch_processing.cpp.o
@@ -250,7 +250,7 @@ aruco_batch_processing.o: aruco_batch_processing.cpp.o
 
 # target to build an object file
 aruco_batch_processing.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.o
 .PHONY : aruco_batch_processing.cpp.o
 
 aruco_batch_processing.i: aruco_batch_processing.cpp.i
@@ -258,7 +258,7 @@ aruco_batch_processing.i: aruco_batch_processing.cpp.i
 
 # target to preprocess a source file
 aruco_batch_processing.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.i
 .PHONY : aruco_batch_processing.cpp.i
 
 aruco_batch_processing.s: aruco_batch_processing.cpp.s
@@ -266,7 +266,7 @@ aruco_batch_processing.s: aruco_batch_processing.cpp.s
 
 # target to generate assembly for a file
 aruco_batch_processing.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_batch_processing.dir/build.make utils/CMakeFiles/aruco_batch_processing.dir/aruco_batch_processing.cpp.s
 .PHONY : aruco_batch_processing.cpp.s
 
 aruco_print_dictionary.o: aruco_print_dictionary.cpp.o
@@ -274,7 +274,7 @@ aruco_print_dictionary.o: aruco_print_dictionary.cpp.o
 
 # target to build an object file
 aruco_print_dictionary.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.o
 .PHONY : aruco_print_dictionary.cpp.o
 
 aruco_print_dictionary.i: aruco_print_dictionary.cpp.i
@@ -282,7 +282,7 @@ aruco_print_dictionary.i: aruco_print_dictionary.cpp.i
 
 # target to preprocess a source file
 aruco_print_dictionary.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.i
 .PHONY : aruco_print_dictionary.cpp.i
 
 aruco_print_dictionary.s: aruco_print_dictionary.cpp.s
@@ -290,7 +290,7 @@ aruco_print_dictionary.s: aruco_print_dictionary.cpp.s
 
 # target to generate assembly for a file
 aruco_print_dictionary.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_dictionary.dir/build.make utils/CMakeFiles/aruco_print_dictionary.dir/aruco_print_dictionary.cpp.s
 .PHONY : aruco_print_dictionary.cpp.s
 
 aruco_print_marker.o: aruco_print_marker.cpp.o
@@ -298,7 +298,7 @@ aruco_print_marker.o: aruco_print_marker.cpp.o
 
 # target to build an object file
 aruco_print_marker.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.o
 .PHONY : aruco_print_marker.cpp.o
 
 aruco_print_marker.i: aruco_print_marker.cpp.i
@@ -306,7 +306,7 @@ aruco_print_marker.i: aruco_print_marker.cpp.i
 
 # target to preprocess a source file
 aruco_print_marker.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.i
 .PHONY : aruco_print_marker.cpp.i
 
 aruco_print_marker.s: aruco_print_marker.cpp.s
@@ -314,7 +314,7 @@ aruco_print_marker.s: aruco_print_marker.cpp.s
 
 # target to generate assembly for a file
 aruco_print_marker.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_print_marker.dir/build.make utils/CMakeFiles/aruco_print_marker.dir/aruco_print_marker.cpp.s
 .PHONY : aruco_print_marker.cpp.s
 
 aruco_simple.o: aruco_simple.cpp.o
@@ -322,7 +322,7 @@ aruco_simple.o: aruco_simple.cpp.o
 
 # target to build an object file
 aruco_simple.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.o
 .PHONY : aruco_simple.cpp.o
 
 aruco_simple.i: aruco_simple.cpp.i
@@ -330,7 +330,7 @@ aruco_simple.i: aruco_simple.cpp.i
 
 # target to preprocess a source file
 aruco_simple.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.i
 .PHONY : aruco_simple.cpp.i
 
 aruco_simple.s: aruco_simple.cpp.s
@@ -338,7 +338,7 @@ aruco_simple.s: aruco_simple.cpp.s
 
 # target to generate assembly for a file
 aruco_simple.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_simple.dir/build.make utils/CMakeFiles/aruco_simple.dir/aruco_simple.cpp.s
 .PHONY : aruco_simple.cpp.s
 
 aruco_test.o: aruco_test.cpp.o
@@ -346,7 +346,7 @@ aruco_test.o: aruco_test.cpp.o
 
 # target to build an object file
 aruco_test.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.o
 .PHONY : aruco_test.cpp.o
 
 aruco_test.i: aruco_test.cpp.i
@@ -354,7 +354,7 @@ aruco_test.i: aruco_test.cpp.i
 
 # target to preprocess a source file
 aruco_test.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.i
 .PHONY : aruco_test.cpp.i
 
 aruco_test.s: aruco_test.cpp.s
@@ -362,7 +362,7 @@ aruco_test.s: aruco_test.cpp.s
 
 # target to generate assembly for a file
 aruco_test.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_test.dir/build.make utils/CMakeFiles/aruco_test.dir/aruco_test.cpp.s
 .PHONY : aruco_test.cpp.s
 
 aruco_tracker.o: aruco_tracker.cpp.o
@@ -370,7 +370,7 @@ aruco_tracker.o: aruco_tracker.cpp.o
 
 # target to build an object file
 aruco_tracker.cpp.o:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.o
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.o
 .PHONY : aruco_tracker.cpp.o
 
 aruco_tracker.i: aruco_tracker.cpp.i
@@ -378,7 +378,7 @@ aruco_tracker.i: aruco_tracker.cpp.i
 
 # target to preprocess a source file
 aruco_tracker.cpp.i:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.i
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.i
 .PHONY : aruco_tracker.cpp.i
 
 aruco_tracker.s: aruco_tracker.cpp.s
@@ -386,7 +386,7 @@ aruco_tracker.s: aruco_tracker.cpp.s
 
 # target to generate assembly for a file
 aruco_tracker.cpp.s:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.s
+	cd /home/francisco/Escritorio/Calibration && $(MAKE) $(MAKESILENT) -f utils/CMakeFiles/aruco_tracker.dir/build.make utils/CMakeFiles/aruco_tracker.dir/aruco_tracker.cpp.s
 .PHONY : aruco_tracker.cpp.s
 
 # Help Target
@@ -436,6 +436,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/francisco/Escritorio/Calibration && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

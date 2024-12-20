@@ -1,4 +1,4 @@
-# Install script for directory: /home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12
+# Install script for directory: /home/francisco/Escritorio/Calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,23 +44,23 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/aruco-uninstalled.pc"
-    "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/aruco.pc"
+    "/home/francisco/Escritorio/Calibration/aruco-uninstalled.pc"
+    "/home/francisco/Escritorio/Calibration/aruco.pc"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco" TYPE FILE FILES "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/arucoConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco" TYPE FILE FILES "/home/francisco/Escritorio/Calibration/arucoConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/src/cmake_install.cmake")
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils/cmake_install.cmake")
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_markermap/cmake_install.cmake")
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_calibration/cmake_install.cmake")
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_dcf/cmake_install.cmake")
-  include("/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/utils_fractal/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/src/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/utils/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/utils_markermap/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/utils_calibration/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/utils_dcf/cmake_install.cmake")
+  include("/home/francisco/Escritorio/Calibration/utils_fractal/cmake_install.cmake")
 
 endif()
 
@@ -72,5 +72,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/francisco/Escritorio/Proyect Management Medical Applications/aruco-3.1.12/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/francisco/Escritorio/Calibration/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
