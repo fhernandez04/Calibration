@@ -8,8 +8,6 @@ g++ -I../src -I/usr/include/opencv4 -I/usr/include/opencv -L/usr/lib -L/usr/loca
 */
 
 #include <algorithm>
-
-
 #include <fstream>
 #include <iostream>
 #include <opencv2/calib3d/calib3d.hpp>
@@ -133,6 +131,11 @@ int main(int argc, char **argv) {
     int flags = 0;
     
     Mat img = imread(fileNames[0]);  // Read the first image to detect the size
+    if (img.empty()) {
+        cerr << "Error loading image: " << fileNames[0] << endl;
+        return -1;
+    }
+    
     Size frameSize(img.cols, img.rows);
 
 
@@ -155,6 +158,7 @@ int main(int argc, char **argv) {
     /////////////////////////////////////////////////////////////
     // 3.1 Getting the fixed position of every pixel
 
+    // Correcting images to test the calibration accuracy
     Mat mapX, mapY;
     initUndistortRectifyMap(intrinsicMatrix, distortionCoef, Matx33f::eye(),
                             intrinsicMatrix, frameSize, CV_32FC1, mapX, mapY);
@@ -167,8 +171,6 @@ int main(int argc, char **argv) {
     * the pixel in (100, 50) of the original image should be map into 
     * the position (98, 49)
     */
-
-   
 
     /////////////////////////////////////////////////////////////
     // 3.2 Show corrected images
@@ -189,8 +191,6 @@ int main(int argc, char **argv) {
         imshow("Corrected image ", image_resized);
         waitKey(0);
     }
-
-    
 
     ///////////////////////////////////////////////////////////////////////////
     // 4. Exporting calibration data to a YML file
