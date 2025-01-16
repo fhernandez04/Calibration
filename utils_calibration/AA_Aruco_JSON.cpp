@@ -1,12 +1,13 @@
 /*
-Compile of the module:
-g++ -shared -fPIC -I../src -I/usr/include/opencv4 -I/usr/include/opencv -I/path/to/nlohmann/json -I/usr/include/python3.10 -L/usr/lib -L/usr/local/lib utils_calibration/AA_Aruco_JSON.cpp -o utils_calibration/AAA_calibration_module.so -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_calib3d -lopencv_imgcodecs -laruco -lpython3.10
-
-Copmilation with Python 3.10
-g++ -I../src -I/usr/include/opencv4 -I/usr/include/opencv -I/path/to/nlohmann/json -I/usr/include/python3.10 -L/usr/lib -L/usr/local/lib utils_calibration/AA_Aruco_JSON.cpp -o utils_calibration/AA_Aruco_JSON -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_calib3d -lopencv_imgcodecs -laruco -lpython3.10 -shared -fPIC
+Compile of the module to execute it in pyhton (python 3.12):
+g++ -shared -fPIC -I../src -I/usr/include/opencv4 -I/usr/include/opencv -I/path/to/nlohmann/json \
+    -I/usr/include/python3.12 -L/usr/lib -L/usr/local/lib \
+    utils_calibration/AA_Aruco_JSON.cpp -o utils_calibration/AAA_calibration_module.so \
+    -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_calib3d -lopencv_imgcodecs -laruco \
+    -lpython3.12
 
 Usage:
-./utils_calibration/AA_Aruco_JSON utils_calibration/DATA_TRIAL/ AA_trial.json
+python3 utils_calibration/AA_Aruco_JSON.py utils_calibration/DATA_TRIAL/ AA_trial.json 0.173
 
 Note:
 marker_length = 0.173f in the trial case
@@ -39,7 +40,7 @@ void calibrate_camera(String path_to_images, String name_json_file, float marker
     glob(path_to_images, fileNames, false);  // Change the image path
 
     // Defining the marker size (length in meters)
-    const float markerLength = 0.173f;  // Length of the marker in meters (adjust as needed)
+    const float markerLength = marker_length;  // Length of the marker in meters (adjust as needed)
 
     // Defining the ArUco marker dictionary
     FractalDetector FDetector;
