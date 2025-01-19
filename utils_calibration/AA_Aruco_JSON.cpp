@@ -317,7 +317,7 @@ void calibrate_camera(String path_to_images, String name_json_file, float marker
 }
 
 // Exporting the function to Python
-PYBIND11_MODULE(AAA_calibration_module, m) {
+PYBIND11_MODULE(calibration_module, m) {
     m.doc() = "Camera calibration using ArUco markers";
     m.def("calibrate_camera", &calibrate_camera, "Calibrate the camera",
           pybind11::arg("path_to_images"), pybind11::arg("output_json"), pybind11::arg("marker_length"));
